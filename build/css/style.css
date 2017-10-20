@@ -56,7 +56,10 @@ body a:hover {
 .main-p-header .container .top-header .logotype {
   width: 180px;
   height: 58px;
-  background: url('../img/logo.png') no-repeat;
+}
+.main-p-header .container .top-header .logotype img {
+  width: 100%;
+  height: auto;
 }
 .main-p-header .container .top-header .m-nav {
   display: -ms-flexbox;
@@ -158,9 +161,10 @@ body a:hover {
   -ms-flex-pack: center;
       justify-content: center;
 }
-.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv span {
-  color: #000;
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv a {
+  color: #14347a;
   font-size: 16px;
+  font-weight: bold;
 }
 .main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .shield {
   width: 40px;
@@ -271,9 +275,15 @@ body a:hover {
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .warn .terms {
   text-decoration: underline;
 }
+.main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .warn .terms:hover {
+  text-decoration: none;
+}
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .warn .prive {
   color: #14347a;
   text-decoration: underline;
+}
+.main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .warn .prive:hover {
+  text-decoration: none;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .sub-bt {
   border: none;
@@ -282,10 +292,14 @@ body a:hover {
   text-transform: uppercase;
   font-size: 18px;
   background-color: #e5b81a;
+  border-bottom: 2px solid #c9ab1f;
   width: 99%;
   height: 40px;
   -o-border-radius: 4px;
   border-radius: 4px;
+}
+.main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .sub-bt:hover {
+  background-color: #deb219;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .o-sp {
   color: #fff;
@@ -297,8 +311,44 @@ body a:hover {
   outline: none;
   width: 294px;
   height: 51px;
-  background: url('../img/Bottom_login_FB.png') no-repeat;
+  padding: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
   margin-bottom: 7px;
+  border-bottom: 2px solid #112c67;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: #112c67;
+}
+.main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-bt {
+  width: 50px;
+  height: 51px;
+  background: url('../img/facebook.png') no-repeat;
+}
+.main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-text {
+  width: 244px;
+  height: 51px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-color: #14347a;
+  border-bottom-right-radius: 6px;
+}
+.main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-text span {
+  color: #fff;
+  font-size: 17px;
+}
+.main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-text:hover {
+  background-color: #112c67;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .prof {
   width: 85%;
@@ -444,6 +494,7 @@ body a:hover {
   -ms-flex-pack: justify;
       justify-content: space-between;
   margin-bottom: 50px;
+  padding: 0 60px;
 }
 .main-page .happy-matches .container .match-block:last-child {
   margin-bottom: 0;
@@ -496,6 +547,9 @@ body a:hover {
   color: #14347a;
   font-size: 16px;
 }
+.main-page .happy-matches .container .match-block .one-match .match-story-left .more-line a:hover {
+  font-weight: bold;
+}
 .main-page .happy-matches .container .match-block .one-match .match-story-right {
   position: absolute;
   content: '';
@@ -533,6 +587,9 @@ body a:hover {
 .main-page .happy-matches .container .match-block .one-match .match-story-right .more-line a {
   color: #14347a;
   font-size: 16px;
+}
+.main-page .happy-matches .container .match-block .one-match .match-story-right .more-line a:hover {
+  font-weight: bold;
 }
 .main-page .search-line {
   width: 100%;
@@ -881,7 +938,7 @@ body a:hover {
       justify-content: flex-start;
 }
 .main-p-footer .container .serv-lists .one-list .f-nav li {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .main-p-footer .container .serv-lists .one-list .f-nav li:last-child {
   margin-bottom: 0;
@@ -889,6 +946,9 @@ body a:hover {
 .main-p-footer .container .serv-lists .one-list .f-nav li a {
   color: #fff;
   font-size: 16px;
+}
+.main-p-footer .container .serv-lists .one-list .f-nav li a:hover {
+  color: #eeca23;
 }
 .main-p-footer .container .serv-lists .one-list .facebook-log {
   width: 43px;
