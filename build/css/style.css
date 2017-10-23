@@ -41,7 +41,7 @@ body a:hover {
 }
 .main-p-header .container .top-header {
   width: 100%;
-  height: 80px;
+  height: 110px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -51,11 +51,10 @@ body a:hover {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 0 10px;
-  margin-bottom: 10px;
 }
 .main-p-header .container .top-header .logotype {
-  width: 180px;
-  height: 80px;
+  width: 250px;
+  height: 110px;
 }
 .main-p-header .container .top-header .logotype img {
   width: 100%;
@@ -176,126 +175,114 @@ body a:hover {
   height: 48px;
   background: url('../img/main_icon1.png') no-repeat;
   margin-bottom: 8px;
-  opacity: 1;
-  -webkit-transform: scale(1, 1);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1, 1);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 150ms;
 }
-.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .shield:hover {
-  -webkit-transform: scale(1.2, 1.2);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1.2, 1.2);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 150ms;
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv:hover .shield {
+  display: none;
+}
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .shield-y {
+  display: none;
+  width: 40px;
+  height: 48px;
+  background: url('../img/main_icon1_y.png') no-repeat;
+  margin-bottom: 8px;
+}
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv:hover .shield-y {
+  display: block;
 }
 .main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .hand {
   width: 38px;
   height: 48px;
   background: url('../img/main_icon2.png') no-repeat;
   margin-bottom: 8px;
-  opacity: 1;
-  -webkit-transform: scale(1, 1);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1, 1);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 150ms;
 }
-.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .hand:hover {
-  -webkit-transform: scale(1.2, 1.2);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1.2, 1.2);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 150ms;
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv:hover .hand {
+  display: none;
+}
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .hand-y {
+  display: none;
+  width: 38px;
+  height: 48px;
+  background: url('../img/main_icon2_y.png') no-repeat;
+  margin-bottom: 8px;
+}
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv:hover .hand-y {
+  display: block;
 }
 .main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .sup {
   width: 46px;
   height: 48px;
   background: url('../img/main_icon3.png') no-repeat;
   margin-bottom: 8px;
-  opacity: 1;
-  -webkit-transform: scale(1, 1);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1, 1);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 150ms;
 }
-.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .sup:hover {
-  -webkit-transform: scale(1.2, 1.2);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1.2, 1.2);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 150ms;
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv:hover .sup {
+  display: none;
+}
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .sup-y {
+  display: none;
+  width: 46px;
+  height: 48px;
+  background: url('../img/main_icon3_y.png') no-repeat;
+  margin-bottom: 8px;
+}
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv:hover .sup-y {
+  display: block;
 }
 .main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .hearts {
   width: 60px;
   height: 47px;
   background: url('../img/main_icon4.png') no-repeat;
   margin-bottom: 8px;
-  opacity: 1;
-  -webkit-transform: scale(1, 1);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1, 1);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 150ms;
 }
-.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .hearts:hover {
-  -webkit-transform: scale(1.2, 1.2);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1.2, 1.2);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 150ms;
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv:hover .hearts {
+  display: none;
+}
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .hearts-y {
+  display: none;
+  width: 60px;
+  height: 47px;
+  background: url('../img/main_icon4_y.png') no-repeat;
+  margin-bottom: 8px;
+}
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv:hover .hearts-y {
+  display: block;
 }
 .main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .free {
   width: 46px;
   height: 46px;
   background: url('../img/main_icon5.png') no-repeat;
   margin-bottom: 8px;
-  opacity: 1;
-  -webkit-transform: scale(1, 1);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1, 1);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 150ms;
 }
-.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .free:hover {
-  -webkit-transform: scale(1.2, 1.2);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1.2, 1.2);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 150ms;
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv:hover .free {
+  display: none;
+}
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .free-y {
+  display: none;
+  width: 46px;
+  height: 46px;
+  background: url('../img/main_icon5_y.png') no-repeat;
+  margin-bottom: 8px;
+}
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv:hover .free-y {
+  display: block;
 }
 .main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .clock {
   width: 55px;
   height: 48px;
   background: url('../img/main_icon6.png') no-repeat;
   margin-bottom: 8px;
-  opacity: 1;
-  -webkit-transform: scale(1, 1);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1, 1);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 150ms;
 }
-.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .clock:hover {
-  -webkit-transform: scale(1.2, 1.2);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1.2, 1.2);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 150ms;
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv:hover .clock {
+  display: none;
+}
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv .clock-y {
+  display: none;
+  width: 55px;
+  height: 48px;
+  background: url('../img/main_icon6_y.png') no-repeat;
+  margin-bottom: 8px;
+}
+.main-p-header .container .bottom-header .register-block .icons-blocks .one-line .one-adv:hover .clock-y {
+  display: block;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block {
   width: 31%;
@@ -482,14 +469,14 @@ body a:hover {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #fff;
   margin-bottom: 13px;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .protect-ico-block .mc-ico img {
   width: 75px;
-  height: 35px;
+  height: 29px;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .protect-ico-block .ssl-ico {
   width: 101px;
@@ -502,7 +489,7 @@ body a:hover {
       justify-content: center;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #fff;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .protect-ico-block .ssl-ico img {
   width: 75px;
@@ -859,6 +846,23 @@ body a:hover {
       flex-direction: column;
   margin-right: 3px;
   box-shadow: 0 0 13px #ADADAD;
+  cursor: pointer;
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 150ms;
+  -moz-transform: scale(1, 1);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 150ms;
+}
+.main-page .online-girls .container .girls-pack .one-girl:hover {
+  -webkit-transform: scale(1.2, 1.2);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 150ms;
+  -moz-transform: scale(1.2, 1.2);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 150ms;
+  z-index: 99;
 }
 .main-page .online-girls .container .girls-pack .one-girl:last-child {
   margin-right: 0;
