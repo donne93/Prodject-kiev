@@ -911,7 +911,7 @@ body a:hover {
   -webkit-transform: scale(1.05, 1.05);
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 150ms;
-  -moz-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.05, 1.05);
   -moz-transition-timing-function: ease-out;
   -moz-transition-duration: 150ms;
   z-index: 99;
