@@ -113,8 +113,8 @@ body a:hover {
   -webktit-animation-timing-function: linear;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
@@ -456,7 +456,10 @@ body a:hover {
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-bt .f-let {
   width: 16px;
   height: 34px;
-  background: url('../img/f_let2.png') no-repeat;
+}
+.main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-bt .f-let img {
+  width: 100%;
+  height: auto;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-text {
   width: 243px;
@@ -1184,7 +1187,10 @@ body a:hover {
 .main-p-footer .container .serv-lists .one-list .facebook-log .f-let {
   width: 16px;
   height: 34px;
-  background: url('../img/f_let2.png') no-repeat;
+}
+.main-p-footer .container .serv-lists .one-list .facebook-log .f-let img {
+  width: 100%;
+  height: auto;
 }
 .main-p-footer .container .serv-lists .fol-list {
   -ms-flex-align: center;
@@ -1231,7 +1237,10 @@ body a:hover {
 .main-p-footer .container .copyrights-line .secur .ssl {
   width: 81px;
   height: 39px;
-  background: url('../img/ssl.png') no-repeat;
+}
+.main-p-footer .container .copyrights-line .secur .ssl img {
+  width: 100%;
+  height: auto;
 }
 .main-p-footer .container .copyrights-line .contact-info {
   display: -ms-flexbox;
@@ -1256,10 +1265,10 @@ body a:hover {
   margin-right: 5px;
 }
 .main-p-footer .container .copyrights-line .contact-info .cont-line .phone-c {
-  width: 17px;
+  width: 11px;
   height: 10px;
   background: url('../img/phone_c.png') no-repeat;
-  margin-right: 5px;
+  margin: 0 5px;
 }
 /*================================ media ================================*/
 @media only screen and (min-width: 1250px) {
