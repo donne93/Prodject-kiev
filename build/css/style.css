@@ -1219,7 +1219,7 @@ body a:hover {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding: 0 35px;
+  padding: 0 25px;
 }
 .main-p-footer .container .copyrights-line span {
   color: #fff;
