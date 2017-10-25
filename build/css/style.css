@@ -489,11 +489,10 @@ body a:hover {
   position: absolute;
   content: '';
   top: 8px;
-  left: -25px;
-  width: 25px;
-  height: 25px;
-  background: url('../img/icon_info2.png') no-repeat;
-  background-color: #fff;
+  left: -24px;
+  width: 24px;
+  height: 24px;
+  background: url('../img/icon_info3.png') no-repeat;
   -o-border-radius: 10px;
   border-radius: 10px;
 }
