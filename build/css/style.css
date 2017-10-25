@@ -455,8 +455,8 @@ body a:hover {
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-bt .f-let {
   width: 16px;
-  height: 36px;
-  background: url('../img/f_let.png') no-repeat;
+  height: 34px;
+  background: url('../img/f_let2.png') no-repeat;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-text {
   width: 243px;
@@ -489,10 +489,10 @@ body a:hover {
   position: absolute;
   content: '';
   top: 8px;
-  left: -23px;
-  width: 23px;
-  height: 23px;
-  background: url('../img/icon_info.png') no-repeat;
+  left: -25px;
+  width: 25px;
+  height: 25px;
+  background: url('../img/icon_info2.png') no-repeat;
   background-color: #fff;
   -o-border-radius: 10px;
   border-radius: 10px;
@@ -1184,8 +1184,8 @@ body a:hover {
 }
 .main-p-footer .container .serv-lists .one-list .facebook-log .f-let {
   width: 16px;
-  height: 36px;
-  background: url('../img/f_let.png') no-repeat;
+  height: 34px;
+  background: url('../img/f_let2.png') no-repeat;
 }
 .main-p-footer .container .serv-lists .fol-list {
   -ms-flex-align: center;
@@ -1224,9 +1224,9 @@ body a:hover {
   margin-bottom: 15px;
 }
 .main-p-footer .container .copyrights-line .secur .mc {
-  width: 71px;
-  height: 26px;
-  background: url('../img/mcafee.png') no-repeat;
+  width: 78px;
+  height: 33px;
+  background: url('../img/mcafee2.png') no-repeat;
   margin-right: 40px;
 }
 .main-p-footer .container .copyrights-line .secur .ssl {
