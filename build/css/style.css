@@ -1223,7 +1223,7 @@ body a:hover {
 }
 .main-p-footer .container .copyrights-line span {
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
 }
 .main-p-footer .container .copyrights-line .secur {
   display: -ms-flexbox;
@@ -1248,7 +1248,7 @@ body a:hover {
   background-color: #fff;
   -o-border-radius: 5px;
   border-radius: 5px;
-  margin-right: 40px;
+  margin-right: 25px;
 }
 .main-p-footer .container .copyrights-line .secur .mc img {
   width: 95%;
