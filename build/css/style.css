@@ -1220,6 +1220,7 @@ body a:hover {
   -ms-flex-pack: justify;
       justify-content: space-between;
   padding: 0 25px;
+  margin-bottom: 15px;
 }
 .main-p-footer .container .copyrights-line span {
   color: #fff;
@@ -1234,7 +1235,6 @@ body a:hover {
       align-items: flex-end;
   -ms-flex-pack: end;
       justify-content: flex-end;
-  margin-bottom: 15px;
 }
 .main-p-footer .container .copyrights-line .secur .mc {
   width: 80px;
