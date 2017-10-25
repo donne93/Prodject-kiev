@@ -113,8 +113,8 @@ body a:hover {
   -webktit-animation-timing-function: linear;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
@@ -452,7 +452,6 @@ body a:hover {
       justify-content: center;
   background-color: #112c67;
   border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-bt .f-let {
   width: 16px;
@@ -470,7 +469,6 @@ body a:hover {
       justify-content: center;
   background-color: #14347a;
   border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-text span {
   color: #fff;
@@ -1171,7 +1169,23 @@ body a:hover {
 .main-p-footer .container .serv-lists .one-list .facebook-log {
   width: 43px;
   height: 40px;
-  background: url('../img/facebook-ic.png') no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-color: #415a91;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+}
+.main-p-footer .container .serv-lists .one-list .facebook-log:hover {
+  background-color: #112c67;
+}
+.main-p-footer .container .serv-lists .one-list .facebook-log .f-let {
+  width: 16px;
+  height: 36px;
+  background: url('../img/f_let.png') no-repeat;
 }
 .main-p-footer .container .serv-lists .fol-list {
   -ms-flex-align: center;
@@ -1213,7 +1227,7 @@ body a:hover {
   width: 71px;
   height: 26px;
   background: url('../img/mcafee.png') no-repeat;
-  margin-right: 15px;
+  margin-right: 40px;
 }
 .main-p-footer .container .copyrights-line .secur .ssl {
   width: 81px;
@@ -1235,9 +1249,6 @@ body a:hover {
       align-items: center;
   -ms-flex-pack: start;
       justify-content: flex-start;
-}
-.main-p-footer .container .copyrights-line .contact-info .cont-line span {
-  color: #9da9c3;
 }
 .main-p-footer .container .copyrights-line .contact-info .cont-line .mail-c {
   width: 17px;
