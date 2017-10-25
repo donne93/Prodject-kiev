@@ -451,11 +451,18 @@ body a:hover {
   -ms-flex-pack: center;
       justify-content: center;
   background-color: #112c67;
+  border-bottom-left-radius: 2px;
   border-top-left-radius: 4px;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-bt .f-let {
   width: 16px;
   height: 34px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-bt .f-let img {
   width: 100%;
@@ -471,6 +478,7 @@ body a:hover {
   -ms-flex-pack: center;
       justify-content: center;
   background-color: #14347a;
+  border-bottom-right-radius: 2px;
   border-top-right-radius: 4px;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log .f-text span {
@@ -1222,17 +1230,29 @@ body a:hover {
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
-  -ms-flex-align: center;
-      align-items: center;
+  -ms-flex-align: end;
+      align-items: flex-end;
   -ms-flex-pack: end;
       justify-content: flex-end;
   margin-bottom: 15px;
 }
 .main-p-footer .container .copyrights-line .secur .mc {
-  width: 78px;
-  height: 33px;
-  background: url('../img/mcafee2.png') no-repeat;
+  width: 80px;
+  height: 30px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-color: #fff;
+  -o-border-radius: 5px;
+  border-radius: 5px;
   margin-right: 40px;
+}
+.main-p-footer .container .copyrights-line .secur .mc img {
+  width: 95%;
+  height: auto;
 }
 .main-p-footer .container .copyrights-line .secur .ssl {
   width: 81px;
