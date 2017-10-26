@@ -1663,6 +1663,7 @@ body a:hover {
   }
   .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .facebook-log {
     width: 250px;
+    border-bottom: none;
   }
   .main-p-header .container .bottom-header .register-block .reg-big-block .reg-form {
     padding: 10px;
