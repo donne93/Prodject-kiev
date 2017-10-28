@@ -2717,6 +2717,9 @@ body a:hover {
   -ms-flex-pack: center;
       justify-content: center;
 }
+.woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico:hover .und-sp {
+  font-weight: bold;
+}
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .read-let,
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .replay-let,
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .answered-let {
@@ -2758,7 +2761,6 @@ body a:hover {
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .replay-let .und-sp,
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .answered-let .und-sp {
   font-size: 20px;
-  font-weight: bold;
   text-transform: uppercase;
   text-decoration: underline;
   margin-bottom: 4px;
