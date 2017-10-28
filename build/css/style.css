@@ -812,6 +812,9 @@ body a:hover {
       align-items: center;
   cursor: pointer;
 }
+.woman-profile .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button:hover span {
+  font-weight: bold;
+}
 .woman-profile .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon {
   display: -ms-flexbox;
   display: flex;
@@ -867,9 +870,6 @@ body a:hover {
   color: #14347a;
   font-size: 17px;
   margin: 0;
-}
-.woman-profile .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .text .bold-sp {
-  font-weight: bold;
 }
 .woman-profile .left-menu-prof-info .lady-profile-info .change-page-buttons {
   width: 100%;
@@ -1069,6 +1069,9 @@ body a:hover {
   font-size: 16px;
   background-color: transparent;
 }
+.woman-profile .left-menu-prof-info .lady-profile-info .about-girl .about-text .exact-text-block .more-bt-line .read-more:hover {
+  font-weight: bold;
+}
 .woman-profile .left-menu-prof-info .lady-profile-info .about-girl .about-text .exact-text-block .more-bt-line .block-with-full-text {
   position: absolute;
   content: '';
@@ -1184,13 +1187,13 @@ body a:hover {
 }
 .woman-profile .more-materials-block .more-photos .photos-line .color-back1 .light-b,
 .woman-profile .more-materials-block .more-video .photos-line .color-back1 .light-b {
-  width: 50%;
+  width: 60%;
   height: 120px;
   background-color: #9da9c3;
 }
 .woman-profile .more-materials-block .more-photos .photos-line .color-back1 .dark-b,
 .woman-profile .more-materials-block .more-video .photos-line .color-back1 .dark-b {
-  width: 50%;
+  width: 40%;
   height: 120px;
   background-color: #14347a;
 }
@@ -1458,6 +1461,9 @@ body a:hover {
       align-items: center;
   cursor: pointer;
 }
+.woman-profile-photo .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button:hover span {
+  font-weight: bold;
+}
 .woman-profile-photo .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon {
   display: -ms-flexbox;
   display: flex;
@@ -1513,9 +1519,6 @@ body a:hover {
   color: #14347a;
   font-size: 17px;
   margin: 0;
-}
-.woman-profile-photo .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .text .bold-sp {
-  font-weight: bold;
 }
 .woman-profile-photo .left-menu-prof-info .lady-profile-info .change-page-buttons {
   width: 100%;
@@ -1574,12 +1577,12 @@ body a:hover {
       flex-direction: row;
 }
 .woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .color-back1 .light-b {
-  width: 50%;
+  width: 60%;
   height: 120px;
   background-color: #9da9c3;
 }
 .woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .color-back1 .dark-b {
-  width: 50%;
+  width: 40%;
   height: 120px;
   background-color: #14347a;
 }
@@ -1630,7 +1633,7 @@ body a:hover {
 }
 .woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .photos .one-pic {
   box-shadow: 0 0 15px #3b3b3b;
-  margin-right: 29px;
+  margin-right: 33px;
   cursor: pointer;
 }
 .woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .photos .one-pic:last-child {
@@ -1691,8 +1694,8 @@ body a:hover {
       flex-direction: row;
   -ms-flex-align: center;
       align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   margin-top: -143px;
 }
 .woman-profile-photo .some-video-block .videos-lines .video-line .s-videos .one-video {
@@ -1878,6 +1881,9 @@ body a:hover {
       align-items: center;
   cursor: pointer;
 }
+.woman-profile-video .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button:hover span {
+  font-weight: bold;
+}
 .woman-profile-video .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon {
   display: -ms-flexbox;
   display: flex;
@@ -1933,9 +1939,6 @@ body a:hover {
   color: #14347a;
   font-size: 17px;
   margin: 0;
-}
-.woman-profile-video .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .text .bold-sp {
-  font-weight: bold;
 }
 .woman-profile-video .left-menu-prof-info .lady-profile-info .change-page-buttons {
   width: 100%;
@@ -2215,6 +2218,9 @@ body a:hover {
   -ms-flex-align: center;
       align-items: center;
   cursor: pointer;
+}
+.woman-profile-letter .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button:hover span {
+  font-weight: bold;
 }
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon {
   display: -ms-flexbox;
@@ -3457,9 +3463,10 @@ body a:hover {
   left: -24px;
   width: 24px;
   height: 24px;
-  background: url('../img/icon_info3.png') no-repeat;
-  -o-border-radius: 10px;
-  border-radius: 10px;
+}
+.main-p-header .container .bottom-header .register-block .reg-big-block .reg-form .prof .i-ico img {
+  width: 100%;
+  height: auto;
 }
 .main-p-header .container .bottom-header .register-block .reg-big-block .protect-ico-block {
   position: absolute;
