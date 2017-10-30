@@ -252,7 +252,7 @@ body a:hover {
 }
 .footer .container .copyrights-line .secur .mc {
   width: 80px;
-  height: 32px;
+  height: 31px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -334,6 +334,9 @@ body a:hover {
   font-size: 23px;
   font-weight: bold;
   margin-bottom: 5px;
+}
+.left-panel .man-akk-block .man-name:hover {
+  text-decoration: underline;
 }
 .left-panel .man-akk-block .user-photo-block {
   width: 100%;
@@ -2833,6 +2836,9 @@ body a:hover {
   border-radius: 5px;
   margin-bottom: 33px;
   border-bottom: 1px solid #848da2;
+}
+.woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt button:hover {
+  font-weight: bold;
 }
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt button .del-ico {
   position: absolute;
