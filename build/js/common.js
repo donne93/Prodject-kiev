@@ -11,6 +11,10 @@ $(document).ready(function() {
         $('.hide-select').toggleClass('active');
     });
     
+    $('.sort-sel').click(function() {
+        $('.hidden-sort').toggleClass('active');
+    });
+    
     $('.read-more').click(function() {
         $('.block-with-full-text').toggleClass('active');
     });
