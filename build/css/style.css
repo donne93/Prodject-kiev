@@ -3331,6 +3331,10 @@ body a:hover {
   border-radius: 8px;
   border-bottom: 2px solid #848da2;
 }
+.woman-profile-all-text .left-menu-prof-info .lady-profile-info .cross-line-back .back-b a:hover,
+.administration-all-text .left-menu-prof-info .lady-profile-info .cross-line-back .back-b a:hover {
+  font-weight: bold;
+}
 .woman-profile-all-text .left-menu-prof-info .lady-profile-info .cross-line-back .back-b a .back-ico,
 .administration-all-text .left-menu-prof-info .lady-profile-info .cross-line-back .back-b a .back-ico {
   position: absolute;
@@ -3418,7 +3422,7 @@ body a:hover {
   vertical-align: middle;
   text-align: center;
   font-weight: bold;
-  border: 2px solid #14347a;
+  border: 2px solid #bdc6d9;
   border-radius: 3px;
 }
 .woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .sel-box input[type=checkbox]:checked + .checkbox:before,
@@ -3441,15 +3445,11 @@ body a:hover {
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
 }
-.woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .girl-name a,
-.administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .girl-name a {
+.woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .girl-name span,
+.administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .girl-name span {
   color: #fff;
   font-size: 19px;
   text-decoration: underline;
-}
-.woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .girl-name a:hover,
-.administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .girl-name a:hover {
-  text-decoration: none;
 }
 .woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .man-name,
 .administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .man-name {
@@ -3465,15 +3465,11 @@ body a:hover {
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
 }
-.woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .man-name a,
-.administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .man-name a {
+.woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .man-name span,
+.administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .man-name span {
   color: #fff;
   font-size: 19px;
   text-decoration: underline;
-}
-.woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .man-name a:hover,
-.administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .man-name a:hover {
-  text-decoration: none;
 }
 .woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .letter-data,
 .administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-head .letter-data {
@@ -3556,8 +3552,8 @@ body a:hover {
 .woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box p,
 .administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box p {
   width: 100%;
-  height: 130px;
-  max-height: 130px;
+  height: 160px;
+  max-height: 160px;
   overflow-y: auto;
   border: 1px solid #bdc6d9;
   color: #000;
@@ -5863,15 +5859,17 @@ body a:hover {
   color: #000;
   font-size: 14px;
 }
-/*================================ Letters (answer) ================================*/
-.letter-answer {
+/*================================ Letters (answer, admin) ================================*/
+.letter-answer,
+.admin-answer {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
 }
-.letter-answer .left-menu-prof-info {
+.letter-answer .left-menu-prof-info,
+.admin-answer .left-menu-prof-info {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -5882,7 +5880,8 @@ body a:hover {
   -ms-flex-pack: start;
       justify-content: flex-start;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info {
+.letter-answer .left-menu-prof-info .lady-profile-info,
+.admin-answer .left-menu-prof-info .lady-profile-info {
   width: 77%;
   min-height: 1200px;
   display: -ms-flexbox;
@@ -5891,7 +5890,8 @@ body a:hover {
       flex-direction: column;
   border-left: 1px solid #9da9c3;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -5904,7 +5904,8 @@ body a:hover {
   padding-left: 40px;
   margin-bottom: 70px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block {
   width: 310px;
   display: -ms-flexbox;
   display: flex;
@@ -5912,7 +5913,8 @@ body a:hover {
       flex-direction: column;
   box-shadow: 0 0 15px #ADADAD;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .add-to-contact-list {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .add-to-contact-list,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .add-to-contact-list {
   width: 310px;
   height: 35px;
   display: -ms-flexbox;
@@ -5929,21 +5931,25 @@ body a:hover {
   border-top-right-radius: 7px;
   cursor: pointer;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .add-to-contact-list .add-cont-star {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .add-to-contact-list .add-cont-star,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .add-to-contact-list .add-cont-star {
   width: 23px;
   height: 22px;
   background: url('../img/add_cont_star.png') no-repeat;
   margin-right: 13px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .add-to-contact-list span {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .add-to-contact-list span,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .add-to-contact-list span {
   color: #fff;
   font-size: 17px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block img {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block img,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block img {
   width: 310px;
   height: 295px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .online-block {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .online-block,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .online-block {
   width: 310px;
   height: 28px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -5958,7 +5964,8 @@ body a:hover {
   padding-left: 20px;
   margin-top: -28px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .online-block .onl-ico {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .online-block .onl-ico,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .online-block .onl-ico {
   width: 15px;
   height: 15px;
   background-color: #52c306;
@@ -5966,11 +5973,13 @@ body a:hover {
   border-radius: 30px;
   margin-right: 13px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .online-block span {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .online-block span,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .online-block span {
   color: #fff;
   font-size: 17px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -5982,12 +5991,14 @@ body a:hover {
       justify-content: flex-start;
   padding-left: 25px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block h3 {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block h3,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block h3 {
   color: #b70e12;
   margin: 0;
   margin-bottom: 5px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -5999,24 +6010,29 @@ body a:hover {
       justify-content: flex-start;
   margin-bottom: 10px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line span {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line span,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line span {
   margin: 0;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line .cake {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line .cake,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line .cake {
   width: 26px;
   height: 37px;
   background: url('../img/cake.png') no-repeat;
   margin: 0 15px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line .birth-num {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line .birth-num,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line .birth-num {
   color: #b70e12;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block span {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block span,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block span {
   color: #14347a;
   font-size: 17px;
   margin-bottom: 10px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6028,7 +6044,8 @@ body a:hover {
       justify-content: space-between;
   margin-bottom: 20px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button {
   width: 48%;
   height: 48px;
   background-color: #bdc6d9;
@@ -6043,10 +6060,12 @@ body a:hover {
       align-items: center;
   cursor: pointer;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button:hover span {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button:hover span,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button:hover span {
   font-weight: bold;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -6057,37 +6076,44 @@ body a:hover {
   height: 40px;
   border-right: 1px solid #fff;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-chat {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-chat,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-chat {
   width: 29px;
   height: 29px;
   background: url('../img/but_chat.png') no-repeat;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-mail {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-mail,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-mail {
   width: 26px;
   height: 27px;
   background: url('../img/but_mail.png') no-repeat;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-gift {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-gift,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-gift {
   width: 28px;
   height: 28px;
   background: url('../img/but_gift.png') no-repeat;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-call {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-call,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-call {
   width: 27px;
   height: 26px;
   background: url('../img/but_call.png') no-repeat;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-virtual {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-virtual,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-virtual {
   width: 31px;
   height: 28px;
   background: url('../img/but_virtual.png') no-repeat;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-sms {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-sms,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .icon .but-sms {
   width: 35px;
   height: 34px;
   background: url('../img/but_sms.png') no-repeat;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .text {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .text,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .text {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -6097,15 +6123,18 @@ body a:hover {
   width: 70%;
   height: 40px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .text span {
+.letter-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .text span,
+.admin-answer .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .nav-buttons-line .one-button .text span {
   color: #14347a;
   font-size: 17px;
   margin: 0;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .ad {
+.letter-answer .left-menu-prof-info .lady-profile-info .ad,
+.admin-answer .left-menu-prof-info .lady-profile-info .ad {
   margin-top: 45px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .cross-line-back {
+.letter-answer .left-menu-prof-info .lady-profile-info .cross-line-back,
+.admin-answer .left-menu-prof-info .lady-profile-info .cross-line-back {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6113,19 +6142,22 @@ body a:hover {
       flex-direction: column;
   margin-bottom: 10px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them {
+.letter-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them,
+.admin-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them .line-bl {
+.letter-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them .line-bl,
+.admin-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them .line-bl {
   width: 100%;
   height: 1px;
   background-color: #9da9c3;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them .cor-with {
+.letter-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them .cor-with,
+.admin-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them .cor-with {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -6142,18 +6174,21 @@ body a:hover {
   margin-top: -16px;
   margin-left: 29px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them .cor-with .mail-c {
+.letter-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them .cor-with .mail-c,
+.admin-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them .cor-with .mail-c {
   width: 31px;
   height: 20px;
   background: url('../img/mail_box_ico.png') no-repeat;
   margin-right: 13px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them .cor-with span {
+.letter-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them .cor-with span,
+.admin-answer .left-menu-prof-info .lady-profile-info .cross-line-back .line-and-them .cor-with span {
   color: #14347a;
   font-size: 21px;
   text-transform: uppercase;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6161,7 +6196,8 @@ body a:hover {
       flex-direction: column;
   padding-left: 40px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6173,7 +6209,18 @@ body a:hover {
       justify-content: flex-start;
   margin-top: 35px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from-ad,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from-ad {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6183,7 +6230,22 @@ body a:hover {
       justify-content: space-between;
   margin-bottom: 20px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sen-width,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sen-width {
+  width: 150px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-ad,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-ad {
+  width: 250px;
+  height: 130px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-ad img,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-ad img {
+  width: 100%;
+  height: auto;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -6193,7 +6255,8 @@ body a:hover {
   -ms-flex-pack: start;
       justify-content: flex-start;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -6201,11 +6264,13 @@ body a:hover {
   box-shadow: 0 0 10px #ADADAD;
   margin-right: 7px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av img {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av img,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av img {
   width: 130px;
   height: 130px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av .onl-line {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av .onl-line,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av .onl-line {
   width: 130px;
   max-width: 130px;
   height: 20px;
@@ -6221,7 +6286,8 @@ body a:hover {
   background-color: rgba(0, 0, 0, 0.6);
   margin-top: -20px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av .onl-line .onl-inc {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av .onl-line .onl-inc,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av .onl-line .onl-inc {
   width: 13px;
   height: 13px;
   -o-border-radius: 10px;
@@ -6229,11 +6295,13 @@ body a:hover {
   background-color: #52c306;
   margin-right: 10px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av .onl-line span {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av .onl-line span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-av .onl-line span {
   color: #fff;
   font-size: 15px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat {
   max-height: 130px;
   display: -ms-flexbox;
   display: flex;
@@ -6244,7 +6312,8 @@ body a:hover {
   -ms-flex-pack: start;
       justify-content: flex-start;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .f-line {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .f-line,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .f-line {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -6253,22 +6322,26 @@ body a:hover {
       justify-content: flex-start;
   margin-bottom: 13px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .f-line span {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .f-line span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .f-line span {
   color: #000;
   font-size: 17px;
   margin-right: 6px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .f-line a {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .f-line a,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .f-line a {
   color: #14347a;
   font-size: 17px;
   font-weight: bold;
   text-decoration: underline;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat span {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat span {
   color: #000;
   font-size: 13px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .r-line {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .r-line,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .r-line {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -6277,18 +6350,21 @@ body a:hover {
       justify-content: flex-start;
   margin-top: 35px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .r-line span {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .r-line span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .r-line span {
   color: #000;
   font-size: 17px;
   margin-right: 6px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .r-line .r-sp {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .r-line .r-sp,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender .girl-dat .r-line .r-sp {
   color: #b70e12;
   font-size: 15px;
   font-weight: bold;
   text-decoration: underline;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav {
   max-height: 130px;
   display: -ms-flexbox;
   display: flex;
@@ -6299,7 +6375,8 @@ body a:hover {
   -ms-flex-pack: center;
       justify-content: center;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav a {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav a,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav a {
   color: #14347a;
   position: relative;
   font-size: 13px;
@@ -6313,7 +6390,8 @@ body a:hover {
   text-align: center;
   line-height: 35px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav a .back-ico {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav a .back-ico,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav a .back-ico {
   position: absolute;
   content: '';
   top: 12px;
@@ -6322,10 +6400,12 @@ body a:hover {
   height: 9px;
   background: url('../img/back_ar.png') no-repeat;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav a:hover {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav a:hover,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav a:hover {
   font-weight: bold;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button {
   position: relative;
   border: none;
   outline: none;
@@ -6339,13 +6419,16 @@ body a:hover {
   margin-bottom: 12px;
   border-bottom: 1px solid #848da2;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button:hover {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button:hover,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button:hover {
   font-weight: bold;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button:last-child {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button:last-child,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button:last-child {
   margin-bottom: 0;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button .del-ico {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button .del-ico,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button .del-ico {
   position: absolute;
   content: '';
   top: 4px;
@@ -6354,14 +6437,16 @@ body a:hover {
   font-size: 14px;
   font-weight: bold;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6373,23 +6458,28 @@ body a:hover {
       justify-content: flex-start;
   margin-bottom: 15px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line .sp-block {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line .sp-block,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line .sp-block {
   min-width: 65px;
   max-width: 65px;
   margin-right: 10px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line .sp-block span {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line .sp-block span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line .sp-block span {
   color: #14347a;
   font-size: 15px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line .sub-text {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line .sub-text,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line .sub-text {
   width: 100%;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line .sub-text span {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line .sub-text span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-subject-line .sub-text span {
   color: #000;
   font-size: 14px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6401,19 +6491,23 @@ body a:hover {
       justify-content: flex-start;
   margin-bottom: 15px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line .sp-block {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line .sp-block,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line .sp-block {
   min-width: 65px;
   max-width: 65px;
   margin-right: 10px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line .sp-block span {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line .sp-block span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line .sp-block span {
   color: #14347a;
   font-size: 15px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line .full-text {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line .full-text,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line .full-text {
   width: 100%;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line .full-text p {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line .full-text p,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-text-line .full-text p {
   width: 100%;
   color: #000;
   font-size: 14px;
@@ -6421,7 +6515,8 @@ body a:hover {
   padding-bottom: 13px;
   border-bottom: 1px solid #bdc6d9;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6433,12 +6528,14 @@ body a:hover {
       justify-content: flex-start;
   margin-bottom: 35px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .sp-block {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .sp-block,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .sp-block {
   min-width: 65px;
   max-width: 65px;
   margin-right: 10px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6449,7 +6546,8 @@ body a:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-pic {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-pic,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-pic {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -6457,12 +6555,14 @@ body a:hover {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-pic img {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-pic img,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-pic img {
   width: 70px;
   height: 70px;
   box-shadow: 0 0 8px #ADADAD;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -6471,12 +6571,14 @@ body a:hover {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic img {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic img,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic img {
   width: 70px;
   height: 70px;
   box-shadow: 0 0 8px #ADADAD;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic .black-fog-priv {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic .black-fog-priv,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic .black-fog-priv {
   width: 70px;
   height: 70px;
   display: -ms-flexbox;
@@ -6488,7 +6590,8 @@ body a:hover {
   background-color: rgba(0, 0, 0, 0.8);
   margin-top: -70px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic .black-fog-priv .g-line {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic .black-fog-priv .g-line,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic .black-fog-priv .g-line {
   width: 100%;
   height: 20px;
   display: -ms-flexbox;
@@ -6500,15 +6603,18 @@ body a:hover {
   background-color: #37aa12;
   margin-bottom: 8px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic .black-fog-priv .g-line span {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic .black-fog-priv .g-line span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic .black-fog-priv .g-line span {
   color: #fff;
   font-size: 15px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic .p-price {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic .p-price,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-pic .p-price {
   color: #000;
   font-size: 11px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -6517,12 +6623,14 @@ body a:hover {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .video-bl {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .video-bl,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .video-bl {
   width: 100px;
   height: 70px;
   box-shadow: 0 0 8px #ADADAD;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .black-fog-priv {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .black-fog-priv,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .black-fog-priv {
   width: 100px;
   height: 70px;
   display: -ms-flexbox;
@@ -6534,7 +6642,8 @@ body a:hover {
   background-color: rgba(0, 0, 0, 0.8);
   margin-top: -70px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .black-fog-priv .g-line {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .black-fog-priv .g-line,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .black-fog-priv .g-line {
   width: 100%;
   height: 20px;
   display: -ms-flexbox;
@@ -6546,15 +6655,18 @@ body a:hover {
   background-color: #37aa12;
   margin-bottom: 8px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .black-fog-priv .g-line span {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .black-fog-priv .g-line span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .black-fog-priv .g-line span {
   color: #fff;
   font-size: 15px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .p-price {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .p-price,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-hid-video .p-price {
   color: #000;
   font-size: 11px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-video {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-video,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-video {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -6562,18 +6674,21 @@ body a:hover {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-video .video-bl {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-video .video-bl,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-video .video-bl {
   width: 100px;
   height: 70px;
   box-shadow: 0 0 8px #ADADAD;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-video .black-fog {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-video .black-fog,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content .message-attachment-line .attach-box .at-video .black-fog {
   width: 100px;
   height: 70px;
   background-color: rgba(0, 0, 0, 0.7);
   margin-top: -70px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6584,17 +6699,20 @@ body a:hover {
   -ms-flex-pack: start;
       justify-content: flex-start;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .rep-sp {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .rep-sp,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .rep-sp {
   color: #14347a;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 12px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess span {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess span {
   color: #14347a;
   font-size: 15px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess input {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess input,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess input {
   width: 100%;
   height: 30px;
   background-color: #fff;
@@ -6602,20 +6720,451 @@ body a:hover {
   border: none;
   margin-bottom: 10px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block {
   width: 100%;
   margin-bottom: 15px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .not-line {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head {
+  width: 100%;
+  height: 40px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  background-color: #e8e8e8;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  padding-left: 10px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-style,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-style {
+  width: 110px;
+  height: 33px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+  margin-right: 10px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-style .bold-b,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-style .bold-b {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 27px;
+  height: 23px;
+  background: url('../img/bold.png') no-repeat center;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-style .italic-b,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-style .italic-b {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 27px;
+  height: 23px;
+  background: url('../img/italic.png') no-repeat center;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-style .underline-b,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-style .underline-b {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 27px;
+  height: 23px;
+  background: url('../img/underline.png') no-repeat center;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-position,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-position {
+  width: 160px;
+  height: 33px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+  margin-right: 10px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-position .left-b,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-position .left-b {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 27px;
+  height: 23px;
+  background: url('../img/left.png') no-repeat center;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-position .center-b,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-position .center-b {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 27px;
+  height: 23px;
+  background: url('../img/center.png') no-repeat center;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-position .right-b,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-position .right-b {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 27px;
+  height: 23px;
+  background: url('../img/right.png') no-repeat center;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-position .justify-b,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-position .justify-b {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 27px;
+  height: 23px;
+  background: url('../img/justify.png') no-repeat center;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-select,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-select {
+  width: 110px;
+  height: 33px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+  margin-right: 10px;
+  /*.w-white-b{
+                                        background-color: #fff;
+                                    }*/
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-select select,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-select select {
+  border: none;
+  width: 35px;
+  height: 25px;
+  background-color: transparent;
+  color: #000;
+  font-size: 19px;
+  text-decoration: underline;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-font,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-font,
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-size,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-size {
+  height: 33px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+  margin-right: 10px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-font select,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-font select,
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-size select,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-size select {
+  border: none;
+  color: #000;
+  font-size: 18px;
+  background-color: transparent;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-i,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-i {
+  height: 33px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-right: 18px;
+  border-right: 1px solid #fff;
+  margin-right: 10px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-i .i-b,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-i .i-b {
+  border: none;
+  outline: none;
+  position: relative;
+  background-color: transparent;
+  width: 27px;
+  height: 23px;
+  background: url('../img/italic.png') no-repeat center;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-i .i-b span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .t-i .i-b span {
+  position: absolute;
+  content: '';
+  right: 2px;
+  bottom: -5px;
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .smiles-b,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .buttons-l .smiles-b {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 27px;
+  height: 23px;
+  background: url('../img/answer_smile.png') no-repeat center;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .hide-q,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-head .hide-q {
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  background-color: transparent;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background-color: #fff;
+  padding: 8px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body textarea,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body textarea {
+  width: 100%;
+  height: 250px;
+  border: none;
+  resize: none;
+  padding: 5px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 5px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom span {
+  color: #000;
+  font-size: 15px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .virtual-gi,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .virtual-gi {
+  width: 200px;
+  height: 33px;
+  border: none;
+  outline: none;
+  background-color: #bdc6d9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 2px solid #848da2;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .virtual-gi .virt-sk,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .virtual-gi .virt-sk {
+  width: 31px;
+  height: 28px;
+  margin-right: 15px;
+  position: relative;
+  background: url('../img/but_virtual.png') no-repeat center;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .virtual-gi .virt-sk:after,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .virtual-gi .virt-sk:after {
+  position: absolute;
+  content: '';
+  right: -10px;
+  width: 1px;
+  height: 28px;
+  background-color: #fff;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .virtual-gi span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .virtual-gi span {
+  color: #14347a;
+  font-size: 15px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file {
+  width: 165px;
+  height: 33px;
+  background-color: #bdc6d9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  position: relative;
+  border-bottom: 2px solid #848da2;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .b-clip,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .b-clip {
+  width: 31px;
+  height: 28px;
+  margin-right: 32px;
+  position: relative;
+  background: url('../img/b_clip.png') no-repeat center;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .b-clip:after,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .b-clip:after {
+  position: absolute;
+  content: '';
+  right: -10px;
+  width: 1px;
+  height: 28px;
+  background-color: #fff;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .sel-parody,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .sel-parody {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .sel-parody span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .sel-parody span {
+  color: #14347a;
+  font-size: 15px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .sel-parody .ar-p,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .sel-parody .ar-p {
+  margin-top: 2px;
+  font-size: 11px;
+  margin-left: 4px;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .hidden-add,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .hidden-add {
+  position: absolute;
+  content: '';
+  bottom: -75px;
+  right: 0;
+  display: none;
+  z-index: 9;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .hidden-add .add-files-block,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .hidden-add .add-files-block {
+  width: 165px;
+  height: 65px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding: 5px;
+  background-color: #fff;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px #ADADAD;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .hidden-add .add-files-block input,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .hidden-add .add-files-block input {
+  display: none;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .hidden-add .add-files-block .t-but,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .hidden-add .add-files-block .t-but {
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 14px;
+  background-color: transparent;
+  margin-bottom: 8px;
+  text-decoration: underline;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .hidden-add .add-files-block .t-but:last-child,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .hidden-add .add-files-block .t-but:last-child {
+  margin-bottom: 0;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .hidden-add .add-files-block .t-but:hover,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .hidden-add .add-files-block .t-but:hover {
+  text-decoration: none;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .active,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .write-big-block .write-body .write-bottom .virt-block .add-file .active {
+  display: block;
+}
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .not-line,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .not-line {
   width: 100%;
   text-align: center;
   margin-bottom: 13px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .not-line span {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .not-line span,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .not-line span {
   color: #000;
   font-size: 13px;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .subm-line {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .subm-line,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .subm-line {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6624,7 +7173,8 @@ body a:hover {
   -ms-flex-pack: center;
       justify-content: center;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .subm-line button {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .subm-line button,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .subm-line button {
   border: none;
   outline: none;
   width: 120px;
@@ -6636,19 +7186,23 @@ body a:hover {
   border-radius: 8px;
   margin-bottom: 12px;
   border-bottom: 2px solid #848da2;
+  text-transform: uppercase;
 }
-.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .subm-line button:hover {
+.letter-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .subm-line button:hover,
+.admin-answer .left-menu-prof-info .lady-profile-info .answer-block .write-mess .subm-line button:hover {
   font-weight: bold;
 }
 /*================================ Online girls ================================*/
-.online-girls {
+.online-girls,
+.search-girls {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
 }
-.online-girls .left-menu-prof-info {
+.online-girls .left-menu-prof-info,
+.search-girls .left-menu-prof-info {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6659,7 +7213,8 @@ body a:hover {
   -ms-flex-pack: start;
       justify-content: flex-start;
 }
-.online-girls .left-menu-prof-info .all-online-girls {
+.online-girls .left-menu-prof-info .all-online-girls,
+.search-girls .left-menu-prof-info .all-online-girls {
   width: 77%;
   min-height: 1200px;
   display: -ms-flexbox;
@@ -6668,7 +7223,8 @@ body a:hover {
       flex-direction: column;
   border-left: 1px solid #9da9c3;
 }
-.online-girls .left-menu-prof-info .all-online-girls .cross-line-back {
+.online-girls .left-menu-prof-info .all-online-girls .cross-line-back,
+.search-girls .left-menu-prof-info .all-online-girls .cross-line-back {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6677,19 +7233,22 @@ body a:hover {
   margin-bottom: 10px;
   margin-top: 45px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .cross-line-back .line-and-them {
+.online-girls .left-menu-prof-info .all-online-girls .cross-line-back .line-and-them,
+.search-girls .left-menu-prof-info .all-online-girls .cross-line-back .line-and-them {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
 }
-.online-girls .left-menu-prof-info .all-online-girls .cross-line-back .line-and-them .line-bl {
+.online-girls .left-menu-prof-info .all-online-girls .cross-line-back .line-and-them .line-bl,
+.search-girls .left-menu-prof-info .all-online-girls .cross-line-back .line-and-them .line-bl {
   width: 100%;
   height: 1px;
   background-color: #9da9c3;
 }
-.online-girls .left-menu-prof-info .all-online-girls .cross-line-back .line-and-them .cor-with {
+.online-girls .left-menu-prof-info .all-online-girls .cross-line-back .line-and-them .cor-with,
+.search-girls .left-menu-prof-info .all-online-girls .cross-line-back .line-and-them .cor-with {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -6706,13 +7265,15 @@ body a:hover {
   margin-top: -16px;
   margin-left: 29px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .cross-line-back .line-and-them .cor-with span {
+.online-girls .left-menu-prof-info .all-online-girls .cross-line-back .line-and-them .cor-with span,
+.search-girls .left-menu-prof-info .all-online-girls .cross-line-back .line-and-them .cor-with span {
   color: #b70e12;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box {
+.online-girls .left-menu-prof-info .all-online-girls .l-box,
+.search-girls .left-menu-prof-info .all-online-girls .l-box {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6724,7 +7285,8 @@ body a:hover {
       justify-content: center;
   margin-top: 35px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6736,24 +7298,182 @@ body a:hover {
       justify-content: center;
   margin-bottom: 35px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line span {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line span,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line span {
   color: #14347a;
   font-size: 19px;
   margin-right: 7px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line span:last-child {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line span:last-child,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line span:last-child {
   margin-right: 0;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line .l-chat {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line .l-chat,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line .l-chat {
   font-weight: bold;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line .c-ico {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line .c-ico,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .l-text-line .c-ico {
   width: 46px;
   height: 35px;
   background: url('../img/o_ladies.png') no-repeat;
   margin-right: 7px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line {
+  width: 100%;
+  padding-left: 40px;
+  margin-bottom: 45px;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search {
+  width: 100%;
+  height: 100px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background-color: #bdc6da;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search {
+  width: 100%;
+  height: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  background-color: #c8d2e7;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  padding-left: 20px;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search span,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search span {
+  color: #000;
+  font-size: 17px;
+  margin-right: 4px;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search .inp-id,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search .inp-id {
+  width: 190px;
+  height: 40px;
+  border: 1px solid #14347a;
+  background-color: #fff;
+  padding-left: 7px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  margin-right: 25px;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search select,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search select {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #14347a;
+  background-color: #fff;
+  padding-left: 5px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  margin-right: 4px;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search .onl-sp,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search .onl-sp {
+  color: #14347a;
+  font-size: 16px;
+  margin: 0 8px 0 30px;
+  text-decoration: underline;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search .only-online,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search .only-online {
+  display: none;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search .checkbox,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search .checkbox {
+  font-weight: normal;
+  color: #d5dfee;
+  display: inline-block;
+  cursor: pointer;
+  line-height: 17px;
+  font-size: 10px;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #fff;
+  margin-right: 25px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search .checkbox:before,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search .checkbox:before {
+  color: #14347a;
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #c8d2e7;
+  border-radius: 3px;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search input[type=checkbox]:checked + .checkbox:before,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search input[type=checkbox]:checked + .checkbox:before {
+  content: "\2713";
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 17px;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search button,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .ex-s-search button {
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 19px;
+  width: 142px;
+  height: 50px;
+  background-color: #14347a;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .for-more,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .for-more {
+  width: 100%;
+  height: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .for-more .more-options,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .search-line .small-search .for-more .more-options {
+  border: none;
+  outline: none;
+  color: #14347a;
+  font-size: 23px;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ser-t,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ser-t {
+  -ms-flex-align: center !important;
+      align-items: center !important;
+  -ms-flex-pack: center !important;
+      justify-content: center !important;
+}
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6764,12 +7484,14 @@ body a:hover {
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .emp {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .emp,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .emp {
   width: 170px;
   height: 1px;
   background-color: transparent;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -6780,45 +7502,57 @@ body a:hover {
       justify-content: center;
   margin: 0;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li {
   margin-right: 10px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li:last-child {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li:last-child,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li:last-child {
   margin-right: 0;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li span {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li span,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li span {
   color: #14347a;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li a {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li a,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li a {
   color: #14347a;
   font-size: 18px;
   text-decoration: underline;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li a:hover {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li a:hover,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li a:hover {
   color: #b70e12;
   text-decoration: none;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .arrow {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .arrow,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .arrow {
   color: #000;
   text-decoration: none;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .arrow:hover {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .arrow:hover,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .arrow:hover {
   color: #000;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .word {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .word,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .word {
   color: #000;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .word:hover {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .word:hover,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .word:hover {
   color: #000;
   text-decoration: none;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .w-l {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .w-l,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .w-l {
   margin-right: 20px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .w-r {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .w-r,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .w-r {
   margin-left: 20px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -6828,12 +7562,14 @@ body a:hover {
   -ms-flex-pack: start;
       justify-content: flex-start;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls span {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls span,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls span {
   color: #14347a;
   font-size: 15px;
   font-weight: bold;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel {
   width: 180px;
   height: 35px;
   padding: 5px;
@@ -6852,17 +7588,20 @@ body a:hover {
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel span {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel span,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel span {
   color: #000;
   font-size: 14px;
   font-weight: normal;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .arr-ico {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .arr-ico,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .arr-ico {
   width: 13px;
   height: 8px;
   background: url('../img/down_ar.png') no-repeat;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort {
   position: absolute;
   content: '';
   bottom: -180px;
@@ -6870,7 +7609,8 @@ body a:hover {
   display: none;
   z-index: 9;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block {
   width: 176px;
   height: 175px;
   display: -ms-flexbox;
@@ -6882,7 +7622,8 @@ body a:hover {
   -o-border-radius: 6px;
   border-radius: 6px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6894,14 +7635,17 @@ body a:hover {
       justify-content: flex-start;
   margin-bottom: 15px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line span {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line span,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line span {
   color: #000;
   font-size: 13px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line input {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line input,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line input {
   display: none;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line .checkbox {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line .checkbox,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line .checkbox {
   font-weight: normal;
   color: #d5dfee;
   display: inline-block;
@@ -6918,7 +7662,8 @@ body a:hover {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line .checkbox:before {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line .checkbox:before,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line .checkbox:before {
   color: #14347a;
   content: "";
   display: inline-block;
@@ -6930,15 +7675,18 @@ body a:hover {
   border: 1px solid #bdc6d9;
   border-radius: 3px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line input[type=checkbox]:checked + .checkbox:before {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line input[type=checkbox]:checked + .checkbox:before,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .hidden-sort .sort-g-block .sort-line input[type=checkbox]:checked + .checkbox:before {
   content: "\2713";
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   font-size: 16px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .active {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .active,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .top-pag .sort-girls .sort-sel .active {
   display: block;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -6949,7 +7697,8 @@ body a:hover {
   margin: 20px 0;
   padding-left: 40px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -6960,7 +7709,8 @@ body a:hover {
       justify-content: flex-start;
   margin: 0 10px 35px 0;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo {
   max-width: 153px;
   display: -ms-flexbox;
   display: flex;
@@ -6968,14 +7718,17 @@ body a:hover {
       flex-direction: column;
   margin-right: 10px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo a {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo a,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo a {
   box-shadow: 0 0 8px #ADADAD;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo a img {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo a img,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo a img {
   width: 153px;
   height: 243px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons {
   width: 100%;
   height: 30px;
   background-color: rgba(0, 0, 0, 0.7);
@@ -6990,36 +7743,42 @@ body a:hover {
   margin-top: -30px;
   z-index: 999;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .not-full-star {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .not-full-star,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .not-full-star {
   border: none;
   outline: none;
   width: 23px;
   height: 22px;
   background: url('../img/add_cont_star.png') no-repeat;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .full-star {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .full-star,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .full-star {
   border: none;
   outline: none;
   width: 23px;
   height: 22px;
   background: url('../img/cont_star.png') no-repeat;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .heart {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .heart,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .heart {
   width: 30px;
   height: 19px;
   background: url('../img/heart_t.png') no-repeat;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .virt-gifts {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .virt-gifts,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .virt-gifts {
   width: 20px;
   height: 20px;
   background: url('../img/s_gift.png') no-repeat;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .eng-les {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .eng-les,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-girl-buttons .eng-les {
   width: 22px;
   height: 14px;
   background: url('../img/flag.png') no-repeat;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-g-stat {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-g-stat,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-g-stat {
   width: 100%;
   height: 30px;
   display: -ms-flexbox;
@@ -7034,16 +7793,19 @@ body a:hover {
   background-color: #37aa12;
   z-index: 999;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-g-stat span {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-g-stat span,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-g-stat span {
   color: #f5f5f5;
   font-size: 14px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-g-stat .c-ico {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-g-stat .c-ico,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-photo .onl-g-stat .c-ico {
   width: 22px;
   height: 18px;
   background: url('../img/on-ico.png') no-repeat;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat {
   min-width: 120px;
   max-width: 120px;
   display: -ms-flexbox;
@@ -7055,17 +7817,20 @@ body a:hover {
   -ms-flex-pack: start;
       justify-content: flex-start;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat a {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat a,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat a {
   color: #14347a;
   font-size: 22px;
   text-decoration: underline;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .id-sp {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .id-sp,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .id-sp {
   color: #000;
   font-size: 12px;
   margin-bottom: 12px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .age-l {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .age-l,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .age-l {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -7077,42 +7842,49 @@ body a:hover {
       justify-content: flex-start;
   margin-bottom: 6px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .age-l .bl {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .age-l .bl,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .age-l .bl {
   color: #14347a;
   font-size: 15px;
   font-weight: bold;
   margin-right: 7px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .age-l span {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .age-l span,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .age-l span {
   color: #000;
   font-size: 15px;
   margin-right: 10px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .age-l .cake {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .age-l .cake,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .age-l .cake {
   width: 16px;
   height: 23px;
   background: url('../img/i_cake.png') no-repeat;
   margin-bottom: 3px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .city-l {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .city-l,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .city-l {
   width: 100%;
   max-height: 42px;
   overflow-y: hidden;
   text-overflow: clip;
   margin-bottom: 17px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .city-l .bl {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .city-l .bl,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .city-l .bl {
   color: #14347a;
   font-size: 15px;
   font-weight: bold;
   margin-right: 7px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .city-l span {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .city-l span,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .city-l span {
   color: #000;
   font-size: 15px;
   margin-right: 10px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .a-link {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .a-link,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .a-link {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -7125,27 +7897,31 @@ body a:hover {
   border-top: 1px solid #9da9c3;
   text-decoration: none;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .a-link .s-ico {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .a-link .s-ico,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .a-link .s-ico {
   width: 25px;
   height: 25px;
   background: url('../img/s_ico.png') no-repeat;
   margin-top: 9px;
   margin-bottom: 3px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .a-link .c-ico {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .a-link .c-ico,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .a-link .c-ico {
   width: 31px;
   height: 24px;
   background: url('../img/chat_ico.png') no-repeat;
   margin-top: 9px;
   margin-bottom: 3px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .a-link span {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .a-link span,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .ladies .one-online-lady .online-stat .a-link span {
   color: #14347a;
   font-size: 13px;
   font-weight: bold;
   margin-bottom: 7px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -7157,12 +7933,14 @@ body a:hover {
       justify-content: space-between;
   margin-bottom: 50px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .emp {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .emp,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .emp {
   width: 170px;
   height: 1px;
   background-color: transparent;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -7173,45 +7951,57 @@ body a:hover {
       justify-content: center;
   margin: 0;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li {
   margin-right: 10px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li:last-child {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li:last-child,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li:last-child {
   margin-right: 0;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li span {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li span,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li span {
   color: #14347a;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li a {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li a,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li a {
   color: #14347a;
   font-size: 18px;
   text-decoration: underline;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li a:hover {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li a:hover,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li a:hover {
   color: #b70e12;
   text-decoration: none;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .arrow {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .arrow,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .arrow {
   color: #000;
   text-decoration: none;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .arrow:hover {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .arrow:hover,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .arrow:hover {
   color: #000;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .word {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .word,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .word {
   color: #000;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .word:hover {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .word:hover,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .word:hover {
   color: #000;
   text-decoration: none;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .w-l {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .w-l,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .w-l {
   margin-right: 20px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .w-r {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .w-r,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .w-r {
   margin-left: 20px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .up-bt {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .up-bt,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .up-bt {
   border: none;
   outline: none;
   position: relative;
@@ -7222,7 +8012,8 @@ body a:hover {
   -o-border-radius: 8px;
   border-radius: 8px;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .up-bt .left-ar {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .up-bt .left-ar,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .up-bt .left-ar {
   position: absolute;
   content: '';
   top: 6px;
@@ -7231,7 +8022,8 @@ body a:hover {
   height: 24px;
   background: url('../img/up_ar.png') no-repeat;
 }
-.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .up-bt .right-ar {
+.online-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .up-bt .right-ar,
+.search-girls .left-menu-prof-info .all-online-girls .l-box .bottom-pag .up-bt .right-ar {
   position: absolute;
   content: '';
   top: 6px;
@@ -7240,6 +8032,7 @@ body a:hover {
   height: 24px;
   background: url('../img/up_ar.png') no-repeat;
 }
+/*================================ Search girls ================================*/
 /*================================ Main page ================================*/
 .main-p-header {
   width: 100%;
