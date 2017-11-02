@@ -15,6 +15,10 @@ $(document).ready(function() {
         $('.hidden-sort').toggleClass('active');
     });
     
+    $('.add-file').click(function() {
+        $('.hidden-add').toggleClass('active');
+    });
+    
     $('.read-more').click(function() {
         $('.block-with-full-text').toggleClass('active');
     });
