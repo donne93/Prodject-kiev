@@ -2153,6 +2153,10 @@ body a:hover {
   color: #b70e12;
   margin: 0;
   margin-bottom: 5px;
+  cursor: pointer;
+}
+.woman-profile-letter .left-menu-prof-info .lady-profile-info .prew-block .buttons-block h3:hover {
+  text-decoration: underline;
 }
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line {
   width: 100%;
@@ -2729,6 +2733,11 @@ body a:hover {
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .answered-let:hover .und-sp {
   text-decoration: none;
 }
+.woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .read-let:hover .bl-sp,
+.woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .replay-let:hover .bl-sp,
+.woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .answered-let:hover .bl-sp {
+  text-decoration: underline;
+}
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .read-let .read-ico,
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .replay-let .read-ico,
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .answered-let .read-ico {
@@ -2831,10 +2840,10 @@ body a:hover {
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt button .del-ico {
   position: absolute;
   content: '';
-  top: 4px;
+  top: 5px;
   left: 21px;
   color: #b70e12;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
 }
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt .ch-bt {
@@ -3119,6 +3128,11 @@ body a:hover {
   color: #b70e12;
   margin: 0;
   margin-bottom: 5px;
+  cursor: pointer;
+}
+.woman-profile-all-text .left-menu-prof-info .lady-profile-info .prew-block .buttons-block h3:hover,
+.administration-all-text .left-menu-prof-info .lady-profile-info .prew-block .buttons-block h3:hover {
+  text-decoration: underline;
 }
 .woman-profile-all-text .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line,
 .administration-all-text .left-menu-prof-info .lady-profile-info .prew-block .buttons-block .birthday-line {
@@ -3325,7 +3339,10 @@ body a:hover {
   color: #14347a;
   position: relative;
   font-size: 16px;
-  padding: 7px 45px;
+  width: 125px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
   background-color: #bdc6d9;
   -o-border-radius: 8px;
   border-radius: 8px;
@@ -3548,17 +3565,45 @@ body a:hover {
 .administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box {
   width: 100%;
   margin-bottom: 10px;
+  /*::-webkit-scrollbar-thumb:hover{
+                                    border-width: 1px 1px 1px 2px;
+                                    border-color: #555;
+                                    background-color: #777;
+                                }*/
 }
 .woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box p,
 .administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box p {
   width: 100%;
-  height: 160px;
-  max-height: 160px;
+  height: 180px;
+  max-height: 180px;
   overflow-y: auto;
   border: 1px solid #bdc6d9;
   color: #000;
   font-size: 15px;
   padding: 7px;
+}
+.woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box ::-webkit-scrollbar,
+.administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box ::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 5px;
+}
+.woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box ::-webkit-scrollbar-thumb,
+.administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box ::-webkit-scrollbar-thumb {
+  border-width: none;
+  border-color: #777;
+  background-color: #848da2;
+  border-radius: 3px;
+}
+.woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box ::-webkit-scrollbar-button,
+.administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box ::-webkit-scrollbar-button {
+  background-color: #bdc6d9;
+  -webkit-box-shadow: inset 0 0 6px #848da2;
+}
+.woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box ::-webkit-scrollbar-track,
+.administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .mes-box ::-webkit-scrollbar-track {
+  border-width: 0;
+  background-color: #bdc6d9;
+  -webkit-box-shadow: inset 0 0 6px #848da2;
 }
 .woman-profile-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .attach-box,
 .administration-all-text .left-menu-prof-info .lady-profile-info .all-block .all-text-box .all-text-one .all-body .attach-box {
@@ -4127,11 +4172,19 @@ body a:hover {
   color: #14347a;
   position: relative;
   font-size: 16px;
-  padding: 7px 45px;
+  width: 125px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
   background-color: #bdc6d9;
   -o-border-radius: 8px;
   border-radius: 8px;
   border-bottom: 2px solid #848da2;
+}
+.letters-inbox .left-menu-prof-info .letter-big-box .cross-line-back .back-b a:hover,
+.letters-sent .left-menu-prof-info .letter-big-box .cross-line-back .back-b a:hover,
+.letters-contact-list .left-menu-prof-info .letter-big-box .cross-line-back .back-b a:hover {
+  font-weight: bold;
 }
 .letters-inbox .left-menu-prof-info .letter-big-box .cross-line-back .back-b a .back-ico,
 .letters-sent .left-menu-prof-info .letter-big-box .cross-line-back .back-b a .back-ico,
@@ -4782,6 +4835,17 @@ body a:hover {
 .letters-contact-list .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .answered-let:hover .und-sp {
   text-decoration: none;
 }
+.letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .read-let:hover .bl-sp,
+.letters-sent .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .read-let:hover .bl-sp,
+.letters-contact-list .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .read-let:hover .bl-sp,
+.letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .replay-let:hover .bl-sp,
+.letters-sent .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .replay-let:hover .bl-sp,
+.letters-contact-list .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .replay-let:hover .bl-sp,
+.letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .answered-let:hover .bl-sp,
+.letters-sent .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .answered-let:hover .bl-sp,
+.letters-contact-list .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .answered-let:hover .bl-sp {
+  text-decoration: underline;
+}
 .letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .read-let .read-ico,
 .letters-sent .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .read-let .read-ico,
 .letters-contact-list .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-read-ico .read-let .read-ico,
@@ -4936,10 +5000,10 @@ body a:hover {
 .letters-contact-list .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt button .del-ico {
   position: absolute;
   content: '';
-  top: 4px;
+  top: 5px;
   left: 21px;
   color: #b70e12;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
 }
 .letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt .ch-bt,
@@ -5228,11 +5292,17 @@ body a:hover {
   color: #14347a;
   position: relative;
   font-size: 16px;
-  padding: 7px 45px;
+  width: 125px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
   background-color: #bdc6d9;
   -o-border-radius: 8px;
   border-radius: 8px;
   border-bottom: 2px solid #848da2;
+}
+.admin-letters .left-menu-prof-info .letter-big-box .cross-line-back .back-b a:hover {
+  font-weight: bold;
 }
 .admin-letters .left-menu-prof-info .letter-big-box .cross-line-back .back-b a .back-ico {
   position: absolute;
@@ -5724,10 +5794,10 @@ body a:hover {
 .admin-letters .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt button .del-ico {
   position: absolute;
   content: '';
-  top: 4px;
+  top: 5px;
   left: 21px;
   color: #b70e12;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
 }
 .admin-letters .left-menu-prof-info .letter-big-box .all-letters-pag .pagination-data-line {
@@ -8032,7 +8102,6 @@ body a:hover {
   height: 24px;
   background: url('../img/up_ar.png') no-repeat;
 }
-/*================================ Search girls ================================*/
 /*================================ Main page ================================*/
 .main-p-header {
   width: 100%;
