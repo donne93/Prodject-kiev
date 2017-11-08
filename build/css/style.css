@@ -1331,30 +1331,17 @@ body a:hover {
   width: 90%;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  margin-bottom: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
 }
-.woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line:last-child {
-  margin-bottom: 0;
-}
-.woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .color-back {
-  width: 100%;
-  height: 120px;
-}
-.woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .photos {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-align: center;
-      align-items: center;
-  margin-top: -131px;
-}
-.woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .photos .one-pic {
+.woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .one-pic {
   box-shadow: 0 0 15px #3b3b3b;
   margin-right: 33px;
   cursor: pointer;
+  margin-right: 21px;
+  margin-bottom: 30px;
   opacity: 1;
   -webkit-transform: scale(1, 1);
   -webkit-transition-timing-function: ease-out;
@@ -1363,7 +1350,7 @@ body a:hover {
   -moz-transition-timing-function: ease-out;
   -moz-transition-duration: 150ms;
 }
-.woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .photos .one-pic:hover {
+.woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .one-pic:hover {
   -webkit-transform: scale(1.05, 1.05);
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 150ms;
@@ -1372,10 +1359,7 @@ body a:hover {
   -moz-transition-duration: 150ms;
   z-index: 99;
 }
-.woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .photos .one-pic:last-child {
-  margin-right: 0;
-}
-.woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .photos .one-pic img {
+.woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .one-pic img {
   width: 111px;
   height: 141px;
 }
