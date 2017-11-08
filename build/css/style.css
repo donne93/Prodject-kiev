@@ -1965,14 +1965,28 @@ body a:hover {
   outline: none;
   width: 17px;
   height: 16px;
-  background: url('../img/e_star.png') no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  background-color: transparent;
+}
+.woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .onl-line .not-full-star img {
+  width: 100%;
+  height: auto;
 }
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .onl-line .full-star {
   border: none;
   outline: none;
   width: 17px;
   height: 16px;
-  background: url('../img/f_star.png') no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  background-color: transparent;
+}
+.woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .onl-line .full-star img {
+  width: 100%;
+  height: auto;
 }
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line {
   width: 130px;
@@ -1994,14 +2008,28 @@ body a:hover {
   outline: none;
   width: 17px;
   height: 16px;
-  background: url('../img/e_star.png') no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  background-color: transparent;
+}
+.woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line .not-full-star img {
+  width: 100%;
+  height: auto;
 }
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line .full-star {
   border: none;
   outline: none;
   width: 17px;
   height: 16px;
-  background: url('../img/f_star.png') no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  background-color: transparent;
+}
+.woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line .full-star img {
+  width: 100%;
+  height: auto;
 }
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data {
   width: 74%;
@@ -3783,7 +3811,16 @@ body a:hover {
   outline: none;
   width: 17px;
   height: 16px;
-  background: url('../img/e_star.png') no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  background-color: transparent;
+}
+.letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .onl-line .not-full-star img,
+.letters-sent .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .onl-line .not-full-star img,
+.letters-contact-list .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .onl-line .not-full-star img {
+  width: 100%;
+  height: auto;
 }
 .letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .onl-line .full-star,
 .letters-sent .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .onl-line .full-star,
@@ -3792,7 +3829,16 @@ body a:hover {
   outline: none;
   width: 17px;
   height: 16px;
-  background: url('../img/f_star.png') no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  background-color: transparent;
+}
+.letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .onl-line .full-star img,
+.letters-sent .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .onl-line .full-star img,
+.letters-contact-list .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .onl-line .full-star img {
+  width: 100%;
+  height: auto;
 }
 .letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line,
 .letters-sent .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line,
@@ -3818,7 +3864,16 @@ body a:hover {
   outline: none;
   width: 17px;
   height: 16px;
-  background: url('../img/e_star.png') no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  background-color: transparent;
+}
+.letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line .not-full-star img,
+.letters-sent .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line .not-full-star img,
+.letters-contact-list .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line .not-full-star img {
+  width: 100%;
+  height: auto;
 }
 .letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line .full-star,
 .letters-sent .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line .full-star,
@@ -3827,7 +3882,16 @@ body a:hover {
   outline: none;
   width: 17px;
   height: 16px;
-  background: url('../img/f_star.png') no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  background-color: transparent;
+}
+.letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line .full-star img,
+.letters-sent .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line .full-star img,
+.letters-contact-list .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom .name-av .girl-av .ofl-line .full-star img {
+  width: 100%;
+  height: auto;
 }
 .letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data,
 .letters-sent .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data,
