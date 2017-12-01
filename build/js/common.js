@@ -12,6 +12,12 @@ $(document).ready(function() {
         $('.left-panel').toggleClass('left-panel__open');
         $('body').toggleClass('body-left-panel__open');
     });
+    
+    $('.all-ladies-invitations-btn').on('click', function () {
+        $('.all-ladies-invitations-btn').toggleClass('all-ladies-invitations-btn__open')
+        $('.all-ladies-invitations').toggleClass('all-ladies-invitations__open');
+        $('body').toggleClass('body-left-panel__open');
+    });
 
 	$('.show-sort').click(function() {
         $('.hide-select').toggleClass('active');
@@ -36,6 +42,28 @@ $(document).ready(function() {
     $('.more-options').click(function() {
         $('.for-more').toggleClass('active');
         $('.options-block').toggleClass('active');
+    });
+    
+    $('.sound-line').click(function() {
+        $('.hid-sound').toggleClass('active');
+    });
+    
+    $('.your-web-cam-line').click(function() {
+        $('.hid-camera').toggleClass('active');
+    });
+    
+    $('.forgot-pass').click(function() {
+        $('.hide-change').toggleClass('active');
+    });
+    
+    $('.faq-line').click(function() {
+        $('.hide-text').toggleClass('active');
+        $(this).find('.hide-down').toggleClass('active');
+        $(this).find('.hide-up').toggleClass('active');
+    });
+    
+    $('.forg-p').click(function() {
+        $('.hide-forg-pass').toggleClass('active');
     });
 
 });
