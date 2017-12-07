@@ -65,5 +65,13 @@ $(document).ready(function() {
     $('.forg-p').click(function() {
         $('.hide-forg-pass').toggleClass('active');
     });
+    
+    $('.messages-numbers').click(function() {
+        $('.hidden-girls-bl').toggleClass('active');
+    });
+    
+    $('.girls-inv-head').click(function() {
+        $('.hidden-girls-bl').toggleClass('active');
+    });
 
 });
