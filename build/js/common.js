@@ -56,8 +56,8 @@ $(document).ready(function() {
         $('.hide-change').toggleClass('active');
     });
     
-    $('.faq-line').click(function() {
-        $('.hide-text').toggleClass('active');
+    $('.one-faq-block').click(function() {
+        $(this).find('.hide-text').toggleClass('active');
         $(this).find('.hide-down').toggleClass('active');
         $(this).find('.hide-up').toggleClass('active');
     });
