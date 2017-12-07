@@ -12032,8 +12032,19 @@ body a:hover {
 .edit-profile .left-menu-prof-info .full-edit .edit-photos .upload-small-pics .up-small .load-b {
   width: 101px;
   height: 95px;
-  background-color: #adadad;
+  background-color: #505050;
   margin-bottom: 5px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.edit-profile .left-menu-prof-info .full-edit .edit-photos .upload-small-pics .up-small .load-b .load-i {
+  width: 57px;
+  height: 58px;
+  background: url('../img/load.png') no-repeat;
 }
 /*================================ Support ================================*/
 .support {
