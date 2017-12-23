@@ -184,3 +184,28 @@
     font-style: normal;
     font-weight: normal;
 }
+
+
+/* font-family: "Bradobrei"; */
+@font-face {
+    font-family: "error";
+    src: url("../fonts/error/bradobrei.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "gotic"; */
+@font-face {
+    font-family: "gotic";
+    src: url("../fonts/error/GOTHIC.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "brash"; */
+@font-face {
+    font-family: "brash";
+    src: url("../fonts/error/BRUSHSCI.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
