@@ -10,6 +10,7 @@ $(document).ready(function() {
     $('.left-panel-btn').on('click', function () {
         $('.left-panel-btn').toggleClass('left-panel-btn__open')
         $('.left-panel').toggleClass('left-panel__open');
+        $('.left-panel-woman').toggleClass('left-panel-woman__open');
         $('body').toggleClass('body-left-panel__open');
     });
     
