@@ -17527,7 +17527,9 @@ body a:hover {
   .testimonial-open .left-menu-prof-info .full-testimonial-op,
   .edit-profile .left-menu-prof-info .full-edit,
   .statistic .left-menu-prof-info .full-statistic,
-  .statistic-more .left-menu-prof-info .full-more-statistic {
+  .statistic-more .left-menu-prof-info .full-more-statistic,
+  .blacklist .left-menu-prof-info .full-blacklist,
+  .search-mans .left-menu-prof-info .all-online-girls {
     width: 100%;
     border-left: none;
   }
@@ -18259,6 +18261,25 @@ body a:hover {
   }
   .statistic-more .left-menu-prof-info .full-more-statistic .some-more-statistic .stat-table .table-s-body .table-s-line .name-tr span {
     font-size: 10px;
+  }
+  /*==================  search-mans ===============*/
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .options-block {
+    padding-left: 0;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .options-block .all-search-options .search-op .search-bl {
+    padding: 0 5px;
+    width: 48%;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .options-block .all-search-options .search-op .bt-bl {
+    width: 100%;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .options-block .all-search-options .search-op {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .options-block .all-search-options .search-op .search-bl .chek-l {
+    -ms-flex-pack: center;
+        justify-content: center;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -19219,6 +19240,31 @@ body a:hover {
     -ms-flex-align: center;
         align-items: center;
   }
+  /*================== search-mans  ===============*/
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .options-block .all-search-options .search-op .search-bl {
+    width: 80%;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .w-l {
+    margin-right: 10px;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li .w-r {
+    margin-left: 10px;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .bottom-pag {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator {
+    margin-bottom: 10px;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .w-l {
+    margin-right: 10px;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .w-r {
+    margin-left: 10px;
+  }
 }
 @media only screen and (max-width: 480px) {
   /*================== main  ======================*/
@@ -19705,12 +19751,42 @@ body a:hover {
   .modal-jump-inv .hidden-girls-bl .not-hidden-girls-bl .girls-all-inv .girl-one-inv .absol-girl-info {
     display: none;
   }
+  .modal-blacklist .modal-bll {
+    width: 90%;
+  }
+  .modal-blacklist .modal-bll .add-bl-line {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: start;
+        align-items: flex-start;
+  }
+  .modal-blacklist .modal-bll .add-bl-line input {
+    margin-bottom: 10px;
+  }
   /*================== statistic ==================*/
   .statistic-more .left-menu-prof-info .full-more-statistic .some-more-statistic .filter-line {
     height: auto;
     padding: 10px 0 10px 15px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  /*================== blacklist  =================*/
+  .blacklist .left-menu-prof-info .full-blacklist .blacklist-list,
+  .blacklist .left-menu-prof-info .full-blacklist .blacklist-back {
+    padding-left: 20px;
+  }
+  /*================== search-mans  ===============*/
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .options-block .all-search-options .search-op .search-bl {
+    width: 90%;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .top-pag .paginator li a {
+    font-size: 11px;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .ladies {
+    padding-left: 10px;
+  }
+  .search-mans .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li a {
+    font-size: 11px;
   }
 }
 @media only screen and (max-width: 480px) {
