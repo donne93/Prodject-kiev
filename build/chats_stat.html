@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Statistic</title>
+    <title>Chats</title>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
@@ -35,7 +35,7 @@
         </div>
       </header>
       <main class="clearfix">
-        <div class="col-md-12 clear statistic-more">
+        <div class="col-md-12 clear chats-stat">
           <div class="left-menu-prof-info">
             <div class="left-panel-woman">
               <div class="left-panel-wrap">
@@ -76,84 +76,89 @@
                 </div>
               </div>
             </div>
-            <div class="full-more-statistic">
-              <div class="statistic-more-head">
-                <div class="slim-line"></div><span>Statistics</span>
+            <div class="full-chats">
+              <div class="chats-head">
+                <div class="slim-line"></div><span>Чаты</span>
               </div>
-              <div class="statistic-more-back"><a href="#" class="stat-b">Back
-                  <div class="back-ico"><img src="img/back_ar2.png" alt="pic"/></div></a></div>
-              <div class="some-more-statistic">
-                <div class="filter-line"><span class="fil-sp">Filter</span>
-                  <div class="filt-sel"><span>Фильтровать по </span>
+              <div class="chats-blocks">
+                <div class="chats-search">
+                  <div class="chats-switch">
+                    <button type="button" class="hard-b">Состоявшиеся чаты</button>
+                    <button type="button">Пропущенные чаты</button>
+                  </div>
+                  <form class="ser-line"><span>Дата с</span>
                     <select>
-                      <option value="0" selected="selected">Онлайн</option>
-                    </select>
+                      <option value="0">12.12.12</option>
+                    </select><span>по</span>
+                    <select>
+                      <option value="0">12.12.12</option>
+                    </select><span class="sep-sp">ID Имя:</span>
+                    <input type="text" placeholder="Денис..."/>
+                    <button type="submit">Искать</button>
+                  </form>
+                </div>
+                <div class="chats-data">
+                  <button type="button">2017.10.12</button>
+                  <button type="button">2017.10.30</button>
+                  <button type="button">2017.11.13</button>
+                  <button type="button" class="active-data">2017.11.20</button>
+                  <button type="button">2017.12.23</button>
+                  <button type="button">2017.12.30</button>
+                  <button type="button">2018.01.01</button>
+                  <button type="button">2018.01.24</button>
+                  <button type="button">2018.02.31</button>
+                </div>
+                <div class="chats-table">
+                  <div class="chats-t-head">
+                    <div class="one-tr-h"><span>Мужчины</span></div>
+                    <div class="one-tr-h"><span>Дата</span></div>
+                    <div class="one-tr-h"><span>Продолжительность</span></div>
+                  </div>
+                  <div class="chats-t-line">
+                    <div class="one-tr"><span>Ivan ID:549436</span></div>
+                    <div class="one-tr-c"><span>2017.12.12 18:22:13</span></div>
+                    <div class="one-tr"><span>5.5 минут (0,5 минут видеочата)</span></div>
+                  </div>
+                  <div class="chats-t-line">
+                    <div class="one-tr"><span>Ivan ID:549436</span></div>
+                    <div class="one-tr-c"><span>2017.12.12 18:22:13</span></div>
+                    <div class="one-tr"><span>5.5 минут (0,5 минут видеочата)</span></div>
+                  </div>
+                  <div class="chats-t-line">
+                    <div class="one-tr"><span>Ivan ID:549436</span></div>
+                    <div class="one-tr-c"><span>2017.12.12 18:22:13</span></div>
+                    <div class="one-tr"><span>5.5 минут (0,5 минут видеочата)</span></div>
+                  </div>
+                  <div class="chats-t-line">
+                    <div class="one-tr"><span>Ivan ID:549436</span></div>
+                    <div class="one-tr-c"><span>2017.12.12 18:22:13</span></div>
+                    <div class="one-tr"><span>5.5 минут (0,5 минут видеочата)</span></div>
                   </div>
                 </div>
-                <div class="stat-table">
-                  <div class="table-s-head-1">
-                    <div class="name-tr"></div>
-                    <div class="online-tr"><span>Онлайн</span></div>
-                    <div class="unknown-tr"><span>Чат</span></div>
-                    <div class="letters-tr"><span>Письма</span></div>
-                    <div class="gifts-tr"><span>Подарки</span></div>
-                    <div class="virt-gifts-tr"><span>Вирт.Подарки</span></div>
-                    <div class="summary-tr"><span>Итого</span></div>
+              </div>
+              <div class="modal-chats">
+                <div class="modal-c">
+                  <div class="close-line"><span>История Live Chat</span>
+                    <button type="button">Close</button>
                   </div>
-                  <div class="table-s-head-2">
-                    <div class="name-tr"></div>
-                    <div class="online-tr"></div>
-                    <div class="one-little"><span>текст</span></div>
-                    <div class="one-little"><span>видео</span></div>
-                    <div class="one-little"><span>его видео</span></div>
-                    <div class="one-middle"><span>входящие</span></div>
-                    <div class="one-middle"><span>исходящие</span></div>
-                    <div class="gifts-tr"></div>
-                    <div class="virt-gifts-tr"></div>
-                    <div class="summary-tr"></div>
-                  </div>
-                  <div class="table-s-body">
-                    <div class="table-s-line">
-                      <div class="name-tr"><span>Alice</span><span class="id-sp">ID: 548797</span>
-                        <div class="pic-t"><img src="img/ava_girl.png" alt="pic"/></div>
-                      </div>
-                      <div class="online-tr"><span>544</span></div>
-                      <div class="one-little"><span>544</span></div>
-                      <div class="one-little"><span>544</span></div>
-                      <div class="one-little"><span>544</span></div>
-                      <div class="one-middle"><span>544</span></div>
-                      <div class="one-middle"><span>544</span></div>
-                      <div class="gifts-tr"><span>544</span></div>
-                      <div class="virt-gifts-tr"><span>544</span></div>
-                      <div class="summary-tr"><span>544</span></div>
+                  <div class="chats-lines">
+                    <div class="one-chats-line"><span class="who-sp">[2017-12-12 13:30] IVAN:</span>
+                      <p>Ivan joined the chat...</p>
                     </div>
-                    <div class="table-s-line">
-                      <div class="name-tr"><span>Alice</span><span class="id-sp">ID: 548797</span>
-                        <div class="pic-t"><img src="img/ava_girl.png" alt="pic"/></div>
-                      </div>
-                      <div class="online-tr"><span>544</span></div>
-                      <div class="one-little"><span>544</span></div>
-                      <div class="one-little"><span>544</span></div>
-                      <div class="one-little"><span>544</span></div>
-                      <div class="one-middle"><span>544</span></div>
-                      <div class="one-middle"><span>544</span></div>
-                      <div class="gifts-tr"><span>544</span></div>
-                      <div class="virt-gifts-tr"><span>544</span></div>
-                      <div class="summary-tr"><span>544</span></div>
+                    <div class="one-chats-line"><span class="who-sp">[2017-12-12 13:30] IVAN:</span>
+                      <p>Hello</p>
                     </div>
-                    <div class="table-s-line">
-                      <div class="name-tr"><span>Alice</span><span class="id-sp">ID: 548797</span>
-                        <div class="pic-t"><img src="img/ava_girl.png" alt="pic"/></div>
-                      </div>
-                      <div class="online-tr"><span>544</span></div>
-                      <div class="one-little"><span>544</span></div>
-                      <div class="one-little"><span>544</span></div>
-                      <div class="one-little"><span>544</span></div>
-                      <div class="one-middle"><span>544</span></div>
-                      <div class="one-middle"><span>544</span></div>
-                      <div class="gifts-tr"><span>544</span></div>
-                      <div class="virt-gifts-tr"><span>544</span></div>
-                      <div class="summary-tr"><span>544</span></div>
+                    <div class="one-chats-line"><span class="who-sp">[2017-12-12 13:30] IVAN:</span>
+                      <p>Ivan joined the chat...</p>
+                    </div>
+                    <div class="one-chats-line"><span class="who-sp">[2017-12-12 13:30] IVAN:</span>
+                      <p>Hello</p>
+                    </div>
+                    <div class="one-chats-line"><span class="who-sp">[2017-12-12 13:30] IVAN:</span>
+                      <p>Ivan joined the chat...</p>
+                    </div>
+                    <div class="one-chats-line"><span class="who-sp">[2017-12-12 13:30] IVAN:</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt dolor perferendis optio consequuntur veritatis, soluta, ducimus enim maiores cumque dolore quidem, beatae distinctio aliquam inventore totam quo. Qui, laboriosam, sint!</p>
                     </div>
                   </div>
                 </div>
