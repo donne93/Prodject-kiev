@@ -1863,7 +1863,6 @@ body a:hover {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  margin-top: -143px;
 }
 .woman-profile-photo .some-video-block .videos-lines .video-line .s-videos .one-video {
   display: -ms-flexbox;
@@ -20518,6 +20517,23 @@ body a:hover {
   .checkout .left-menu-prof-info .full-checkout .check-table-body .td-line .gift-check-box {
     width: 134px;
   }
+  /*================== chats-stat  ================*/
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks {
+    padding-left: 20px;
+  }
+  /*================== favourite ==================*/
+  .favourite .left-menu-prof-info .full-favourite .favourite-mans {
+    padding-left: 20px;
+  }
+  /*================== guest ======================*/
+  .guest .left-menu-prof-info .full-guest .guest-list {
+    padding-left: 20px;
+  }
+  /*================== online =====================*/
+  .online .left-menu-prof-info .full-online .online-list {
+    padding-left: 20px;
+  }
 }
 /*================== mobile-menu  =======================================*/
 @media only screen and (min-width: 768px) {
@@ -20679,7 +20695,15 @@ body a:hover {
   .statistic .left-menu-prof-info .full-statistic,
   .statistic-more .left-menu-prof-info .full-more-statistic,
   .blacklist .left-menu-prof-info .full-blacklist,
-  .search-mans .left-menu-prof-info .all-online-girls {
+  .search-mans .left-menu-prof-info .all-online-girls,
+  .chats-stat .left-menu-prof-info .full-chats,
+  .chats-stat-miss .left-menu-prof-info .full-chats,
+  .credits .left-menu-prof-info .full-credits,
+  .favourite .left-menu-prof-info .full-favourite,
+  .guest .left-menu-prof-info .full-guest,
+  .online .left-menu-prof-info .full-online,
+  .new-message .left-menu-prof-info .full-message,
+  .letters-wom .left-menu-prof-info .letter-big-box {
     width: 100%;
     border-left: none;
   }
@@ -20717,7 +20741,7 @@ body a:hover {
   }
   /*================== main  ======================*/
   .main-p-header .container .top-header .m-nav li a {
-    font-size: 14px;
+    font-size: 13px;
   }
   .main-p-header .container .top-header .logotype {
     min-width: 180px;
@@ -20952,10 +20976,23 @@ body a:hover {
   }
   .woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line {
     width: 100%;
+    padding: 0 10px;
   }
-  .woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line {
-    -ms-flex-pack: center;
-        justify-content: center;
+  .woman-profile-photo .some-video-block .videos-lines {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .woman-profile-photo .some-video-block .videos-lines .video-line .s-videos {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line .one-pic {
+    margin: 0px 10px 30px;
+  }
+  .woman-profile-photo .left-menu-prof-info .lady-profile-info .change-page-buttons {
+    padding: 0 30px;
   }
   /*================== online-girls ===============*/
   .online-girls .left-menu-prof-info .all-online-girls .l-box .ladies,
@@ -21006,8 +21043,63 @@ body a:hover {
     font-size: 22px;
     padding-left: 0;
   }
+  /*================== chats-stat =================*/
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-data,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-data {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks {
+    padding-left: 0;
+  }
+  /*================== credits  ===================*/
+  .credits .left-menu-prof-info .full-credits .credits-block .secur-ico-line {
+    padding-left: 0;
+  }
+  .credits .left-menu-prof-info .full-credits .credits-block .cred-form {
+    padding-left: 0;
+  }
+  .credits .left-menu-prof-info .full-credits .credits-block .price-bl {
+    padding-left: 0;
+  }
+  /*================== favourite ==================*/
+  .favourite .left-menu-prof-info .full-favourite .favourite-mans {
+    padding-left: 0px;
+  }
+  /*================== guest ======================*/
+  .guest .left-menu-prof-info .full-guest .guest-list {
+    padding-left: 0px;
+  }
+  /*================== online =====================*/
+  .online .left-menu-prof-info .full-online .online-list {
+    padding-left: 0px;
+  }
+  /*================== new-message ================*/
+  .new-message .left-menu-prof-info .full-message .message-block .add-file-line {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .new-message .left-menu-prof-info .full-message .message-block .add-file-line .add-more {
+    margin: 5px 0;
+  }
+  .new-message .left-menu-prof-info .full-message .message-block .send-b {
+    padding: 7px 15px;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .filter-line {
+    margin-left: 0;
+    width: 100%;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .let-nav-text,
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag {
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+  }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1201px) {
   /*================== left-panel =================*/
   .left-panel-btn {
     display: none;
@@ -21281,36 +21373,8 @@ body a:hover {
     padding: 15px 0;
   }
   /*================== chat =======================*/
-  .chat .container .chat-box .box-head .box-name {
-    width: 60%;
-  }
-  .chat .container .chat-box .box-head .box-logo {
-    width: 40%;
-  }
-  .chat .container .chat-box .ex-box {
-    display: block;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box {
-    width: 100%;
-    margin: 0 0 20px 0;
-  }
-  .chat .container .chat-box .ex-box .c-cameras-contacts {
-    width: 100%;
-    margin: 0 0 20px 0;
-  }
-  .chat .container .chat-box .ex-box .c-cameras-contacts .chat-list-box .chat-list-body .one-chat-line .list-cont {
-    -ms-flex-pack: center;
-        justify-content: center;
-  }
-  .chat ::-webkit-scrollbar {
-    width: 5px;
-  }
-  .chat ::-webkit-scrollbar-thumb {
-    background: #CFD9EF;
-    border-radius: 2px;
-  }
-  .chat ::-webkit-scrollbar-track-piece {
-    background: #fff;
+  .chat .container {
+    width: 970px;
   }
   /*================== gift =======================*/
   .gift .left-menu-prof-info .all-gifts .gift-head {
@@ -21431,6 +21495,81 @@ body a:hover {
     -ms-flex-pack: center;
         justify-content: center;
   }
+  /*================== chats-stat =================*/
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-search .ser-line,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-search .ser-line {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-search .ser-line span,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-search .ser-line span {
+    margin-right: 0;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-search .ser-line select,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-search .ser-line select {
+    margin-right: 0;
+    width: 241px;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-search .ser-line input,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-search .ser-line input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-search .ser-line .sep-sp,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-search .ser-line .sep-sp {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-line .one-tr,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-line .one-tr {
+    height: auto;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-line .one-tr-c,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-line .one-tr-c {
+    height: auto;
+  }
+  .favourite .left-menu-prof-info .full-favourite .favourite-mans .blacklist-list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  /*================== guest ======================*/
+  .guest .left-menu-prof-info .full-guest .guest-list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  /*================== online =====================*/
+  .online .left-menu-prof-info .full-online .online-list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  /*================== letters-wom ================*/
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub {
+    width: 50%;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-attach {
+    width: 11%;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt {
+    width: 24%;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .let-nav-text .all-n .show-b {
+    width: 35%;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .let-nav-text .all-n .all-let {
+    width: 65%;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .filter-line .fil-sp {
+    font-size: 14px;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .filter-line .filt-sel span {
+    font-size: 14px;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .filter-line button {
+    font-size: 14px;
+  }
+  .modal-chats .modal-c {
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 767px) {
   /*================== prew-block =================*/
@@ -21452,6 +21591,7 @@ body a:hover {
     margin-bottom: 510px;
   }
   .main-p-header .container .bottom-header .register-block {
+    height: 600px;
     position: relative;
     -ms-flex-direction: column;
         flex-direction: column;
@@ -21464,10 +21604,12 @@ body a:hover {
     display: block;
   }
   .main-p-header .container .bottom-header .register-block .icons-blocks {
-    top: 494px;
+    bottom: 0;
+    position: absolute;
   }
   .main-p-header .container .bottom-header .register-block .reg-big-block {
     top: 500px;
+    height: auto;
   }
   .main-p-header .container .bottom-header .register-block .reg-big-block .protect-ico-block {
     left: auto;
@@ -21772,6 +21914,10 @@ body a:hover {
   .administration-all-text .left-menu-prof-info .lady-profile-info .all-block .pag-line div {
     margin-bottom: 5px;
   }
+  /*================== woman-profile-photo ========*/
+  .woman-profile-photo .left-menu-prof-info .lady-profile-info .change-page-buttons button {
+    font-size: 14px;
+  }
   /*================== admin-answer ===============*/
   .admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sen-width {
     display: none;
@@ -22073,81 +22219,6 @@ body a:hover {
     text-align: left;
   }
   /*================== chat =======================*/
-  .chat .container .chat-box .box-head .box-name {
-    display: none;
-  }
-  .chat .container .chat-box .box-head .box-logo {
-    width: 100%;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    padding: 0 10px;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box {
-    display: block;
-    height: auto;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .akk-part {
-    height: auto;
-    width: 100%;
-    border-right: 0;
-    padding-right: 0;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .info-part .inf-bl {
-    margin-bottom: 5px;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .info-part {
-    -ms-flex-direction: row;
-        flex-direction: row;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    width: 100%;
-    height: auto;
-    margin: 10px 0;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .info-part .chat-inf-bl {
-    -ms-flex-direction: row;
-        flex-direction: row;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .info-part .chat-inf-bl button {
-    margin-left: 10px;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .akk-part .chat-akk-inf {
-    min-height: 150px;
-    height: auto;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .akk-part .chat-akk-inf .chat-s-inf {
-    margin-bottom: 0;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .akk-part .chat-akk-inf .chat-nav-line {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .akk-part .chat-akk-inf .chat-nav-line .nav-b {
-    margin: 5px 5px 5px 0;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write {
-    height: auto;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write .write-nav .c-smiles {
-    min-width: 22px;
-    min-height: 22px;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write .write-nav {
-    height: auto;
-    min-height: auto;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write .write-nav .send-buttons {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write .write-nav .send-buttons .one-s {
-    padding: 5px 0;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box {
-    max-height: initial;
-  }
   /*================== password ===================*/
   .password .left-menu-prof-info .change-pass .pass-block .change-line span {
     font-size: 14px;
@@ -22415,6 +22486,165 @@ body a:hover {
   .search-mans .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li .w-r {
     margin-left: 10px;
   }
+  /*================== chats-stat =================*/
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-head .one-tr-h span,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-head .one-tr-h span {
+    font-size: 12px;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-line .one-tr span,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-line .one-tr span {
+    font-size: 12px;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-line .one-tr-c span,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-line .one-tr-c span {
+    font-size: 12px;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-search .chats-switch button,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-search .chats-switch button {
+    font-size: 14px;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-line .one-tr-c,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-line .one-tr-c {
+    text-align: center;
+  }
+  /*================== credits  ===================*/
+  .credits .left-menu-prof-info .full-credits .credits-block .secur-ico-line {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .credits .left-menu-prof-info .full-credits .credits-block .secur-ico-line .secur-block {
+    margin: 10px 0;
+  }
+  .credits .left-menu-prof-info .full-credits .credits-block {
+    padding: 0 15px;
+  }
+  /*================== favourite ==================*/
+  .favourite .left-menu-prof-info .full-favourite .favourite-back .stat-b {
+    margin-right: 10px;
+  }
+  /*================== guest ======================*/
+  .guest .left-menu-prof-info .full-guest .guest-back .stat-b {
+    margin-right: 10px;
+  }
+  /*================== online =====================*/
+  .online .left-menu-prof-info .full-online .online-back .stat-b {
+    margin-right: 10px;
+  }
+  /*================== letters-wom ================*/
+  .letters-wom .left-menu-prof-info .letter-big-box .let-nav-text .from-n {
+    display: none;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .let-nav-text .all-n {
+    width: 100%;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .from-whom {
+    width: 100%;
+    margin: 0;
+    -ms-flex-pack: center;
+        justify-content: center;
+    border-radius: 0;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data {
+    width: 100%;
+    border-radius: 0;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    height: auto;
+    min-height: inherit;
+    max-height: inherit;
+    padding: 0;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-data {
+    height: 150px;
+    width: auto;
+    border-right: none;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-data .l-line {
+    padding-right: 0;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-sub .l-subject {
+    border-right: 0;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt {
+    height: 150px;
+    width: 100%;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt button {
+    margin-bottom: 10px;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .filter-line {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .filter-line .filt-sel {
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .filter-line .filt-sel span {
+    margin-left: 0;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .filter-line input {
+    margin: 10px 0;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .pagination-data-line {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .pagination-data-line .del-sel-mes {
+    margin-left: 0;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .pagination-data-line .paginator li a {
+    font-size: 14px;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .pagination-data-line .del-sel-mes button {
+    font-size: 14px;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .pagination-data-line .del-sel-mes {
+    margin-bottom: 10px;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .pagination-data-line .mes-num {
+    margin-top: 10px;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .let-nav-text .all-n .all-let span {
+    font-size: 14px;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .let-nav-text .all-n .show-b button {
+    font-size: 14px;
+  }
+  .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .pagination-data-line .paginator li {
+    margin-right: 10px;
+  }
+  /*================== blacklist ==================*/
+  .blacklist .left-menu-prof-info .full-blacklist .blacklist-back .stat-b {
+    margin-right: 10px;
+  }
+  .blacklist .left-menu-prof-info .full-blacklist .blacklist-list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  /*================== footer-wem =================*/
+  .footer-wem .container .wem-line {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .faq .left-menu-prof-info .full-faq .all-faq .one-faq-block .faq-line {
+    padding-right: 10px;
+  }
+  .checkout .left-menu-prof-info .full-checkout .checkout-head .check-n .checkout-b {
+    margin-right: 10px;
+  }
 }
 @media only screen and (max-width: 480px) {
   /*================== main  ======================*/
@@ -22574,6 +22804,10 @@ body a:hover {
   .woman-profile-video .left-menu-prof-info .lady-profile-info .prew-block .avatar-block .online-block {
     width: 300px;
   }
+  .woman-profile-photo .left-menu-prof-info .lady-profile-info .all-photos-in-line .photos-line {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
   /*================== prew-block =================*/
   .prew-block .buttons-block .nav-buttons-line {
     -ms-flex-direction: column;
@@ -22719,16 +22953,6 @@ body a:hover {
     font-size: 14px;
   }
   /*================== chat =======================*/
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .info-part {
-    -ms-flex-direction: column;
-        flex-direction: column;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-body-full .man-line .man-cloud {
-    max-width: 80%;
-  }
-  .chat .container .chat-box .ex-box .c-akk-text-box .chat-body-full .woman-line .woman-cloud {
-    max-width: 80%;
-  }
   /*================== password ===================*/
   .password .left-menu-prof-info .change-pass .pass-block {
     width: auto;
@@ -22854,6 +23078,9 @@ body a:hover {
     width: 100%;
     text-align: center;
   }
+  .edit-profile .left-menu-prof-info .full-edit .edit-blocks .e-colum .one-e-block .block-e-head {
+    height: 45px;
+  }
   .edit-profile .left-menu-prof-info .full-edit .edit-blocks .e-colum .one-e-block .e-lines .one-edit-line .names-inp {
     width: 100%;
   }
@@ -22937,6 +23164,51 @@ body a:hover {
   }
   .search-mans .left-menu-prof-info .all-online-girls .l-box .bottom-pag .paginator li a {
     font-size: 11px;
+  }
+  /*================== chats-stat =================*/
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-search .chats-switch button,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-search .chats-switch button {
+    font-size: 12px;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-search .chats-switch button:first-child:after,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-search .chats-switch button:first-child:after {
+    bottom: 2px;
+  }
+  .chats-stat .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-head .one-tr-h span,
+  .chats-stat-miss .left-menu-prof-info .full-chats .chats-blocks .chats-table .chats-t-head .one-tr-h span {
+    font-size: 9px;
+  }
+  /*================== credits  ===================*/
+  .credits .left-menu-prof-info .full-credits .credits-block .cred-form .credits-pay {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .credits .left-menu-prof-info .full-credits .credits-block .cred-form .credits-pay button {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .credits .left-menu-prof-info .full-credits .credits-block {
+    padding: 0 10px;
+  }
+  .credits .left-menu-prof-info .full-credits .credits-block .cred-form .credits-table .credit-t-head span {
+    font-size: 12px;
+  }
+  .credits .left-menu-prof-info .full-credits .credits-block .cred-form .credits-table .credit-t-line span {
+    font-size: 12px;
+  }
+  .credits .left-menu-prof-info .full-credits .credits-block .price-bl .price-list .price-line span {
+    font-size: 12px;
+  }
+  /*================== favourite ==================*/
+  .favourite .left-menu-prof-info .full-favourite .favourite-mans .filter-line {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+  /*================== new-message ================*/
+  .new-message .left-menu-prof-info .full-message .message-block {
+    padding-left: 50px;
   }
 }
 @media only screen and (max-width: 480px) {
