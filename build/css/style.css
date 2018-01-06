@@ -856,7 +856,7 @@ body a:hover {
   text-decoration: none;
 }
 .left-panel-woman .one-nav-block .one-nav-line .g-a {
-  color: #52c306;
+  color: #37aa12;
 }
 .left-panel-woman .one-nav-block .one-nav-line .b-sp {
   color: #fff;
@@ -908,7 +908,7 @@ body a:hover {
   border: none;
   outline: none;
   color: #14347a;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
   text-decoration: underline;
   background-color: transparent;
@@ -2708,10 +2708,10 @@ body a:hover {
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt button .del-ico {
   position: absolute;
   content: '';
-  top: 7px;
-  left: 21px;
+  top: 3px;
+  left: 23px;
   color: #b70e12;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 .woman-profile-letter .left-menu-prof-info .lady-profile-info .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt .ch-bt {
@@ -4716,10 +4716,10 @@ body a:hover {
 .letters-contact-list .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt button .del-ico {
   position: absolute;
   content: '';
-  top: 7px;
-  left: 21px;
+  top: 3px;
+  left: 23px;
   color: #b70e12;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 .letters-inbox .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt .ch-bt,
@@ -5526,10 +5526,10 @@ body a:hover {
 .admin-letters .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt button .del-ico {
   position: absolute;
   content: '';
-  top: 7px;
-  left: 21px;
+  top: 2px;
+  left: 23px;
   color: #b70e12;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 .admin-letters .left-menu-prof-info .letter-big-box .all-letters-pag .pagination-data-line {
@@ -6000,10 +6000,10 @@ body a:hover {
 .admin-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-from .sender-nav button .del-ico {
   position: absolute;
   content: '';
-  top: 8px;
-  left: 21px;
+  top: 5px;
+  left: 23px;
   color: #b70e12;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
 }
 .letter-answer .left-menu-prof-info .lady-profile-info .answer-block .read-mess .message-content,
@@ -7948,7 +7948,7 @@ body a:hover {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .chat .container .all-ladies-invitations .ladies-c .l-switch span {
   color: #b70e12;
@@ -7979,8 +7979,7 @@ body a:hover {
       justify-content: flex-start;
 }
 .chat .container .all-ladies-invitations .ladies-c .l-block .one-l {
-  margin-right: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -7993,13 +7992,19 @@ body a:hover {
 .chat .container .all-ladies-invitations .ladies-c .l-block .one-l:hover span {
   text-decoration: underline;
 }
+.chat .container .all-ladies-invitations .ladies-c .l-block .one-l:nth-child(even) {
+  margin-left: 25px;
+}
+.chat .container .all-ladies-invitations .ladies-c .l-block .one-l:nth-child(odd) {
+  margin-right: 25px;
+}
 .chat .container .all-ladies-invitations .ladies-c .l-block .one-l img {
-  width: 80px;
-  height: 120px;
+  width: 95px;
+  height: 140px;
 }
 .chat .container .all-ladies-invitations .ladies-c .l-block .one-l span {
   color: #14347a;
-  font-size: 14px;
+  font-size: 13px;
 }
 .chat .container .all-ladies-invitations .ladies-c .l-paginator {
   width: 100%;
@@ -8114,7 +8119,7 @@ body a:hover {
 }
 .chat .container .all-ladies-invitations .new-inv-block .inv-body .one-inv span {
   color: #37aa12;
-  font-size: 13px;
+  font-size: 12px;
   margin-right: 3px;
 }
 .chat .container .all-ladies-invitations .new-inv-block .inv-body .one-inv .inv-num {
@@ -8514,6 +8519,9 @@ body a:hover {
   font-size: 15px;
   background-color: transparent;
 }
+.chat .container .chat-box .ex-box .chat-web-box .text-part .chat-text-write .write-nav .send-buttons .one-s button:hover {
+  text-decoration: underline;
+}
 .chat .container .chat-box .ex-box .chat-web-box .text-part .chat-text-write .write-nav .c-smiles {
   width: 22px;
   height: 22px;
@@ -8552,6 +8560,9 @@ body a:hover {
   background-color: #52c306;
   -o-border-radius: 6px;
   border-radius: 6px;
+}
+.chat .container .chat-box .ex-box .chat-web-box .text-part .chat-text-write .write-send button:hover {
+  background-color: #37aa12;
 }
 .chat .container .chat-box .ex-box .c-akk-text-box {
   width: 70%;
@@ -8754,6 +8765,9 @@ body a:hover {
   font-size: 12px;
   padding: 0;
   background-color: transparent;
+}
+.chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .akk-part .chat-akk-inf .chat-nav-line .nav-b button:hover {
+  text-decoration: underline;
 }
 .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .info-part {
   width: 20%;
@@ -9023,6 +9037,9 @@ body a:hover {
   font-size: 15px;
   background-color: transparent;
 }
+.chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write .write-nav .send-buttons .one-s button:hover {
+  text-decoration: underline;
+}
 .chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write .write-nav .c-smiles {
   width: 22px;
   height: 22px;
@@ -9061,6 +9078,9 @@ body a:hover {
   background-color: #52c306;
   -o-border-radius: 6px;
   border-radius: 6px;
+}
+.chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write .write-send button:hover {
+  background-color: #37aa12;
 }
 .chat .container .chat-box .ex-box .c-cameras-contacts {
   width: 30%;
@@ -9261,6 +9281,7 @@ body a:hover {
 .chat .container .chat-box .ex-box .c-cameras-contacts .sound-line .hid-sound .select-sound {
   width: 100%;
   height: 175px;
+  min-height: 175px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -9304,7 +9325,7 @@ body a:hover {
   -ms-user-select: none;
   user-select: none;
   background-color: #fff;
-  margin-right: 10px;
+  margin: 0 10px 0 0;
   -o-border-radius: 3px;
   border-radius: 3px;
 }
@@ -10482,6 +10503,10 @@ body a:hover {
   margin-right: 3px;
 }
 .checkout .left-menu-prof-info .full-checkout .gift-after-words .gift-message-box .ex-message .pic-box img {
+  width: 150px;
+  height: 150px;
+}
+.checkout .left-menu-prof-info .full-checkout .gift-after-words .gift-message-box .ex-message .pic-box .logo-pic-check {
   width: 100%;
   height: auto;
 }
@@ -10769,7 +10794,6 @@ body a:hover {
   outline: none;
   color: #14347a;
   font-size: 15px;
-  font-weight: bold;
   width: 135px;
   height: 35px;
   display: -ms-flexbox;
@@ -10790,7 +10814,7 @@ body a:hover {
   margin-right: 0;
 }
 .password .left-menu-prof-info .change-pass .pass-block .buttons-change-line button:hover {
-  font-weight: normal;
+  font-weight: bold;
 }
 /*================================ Tips ================================*/
 .tips {
@@ -11046,7 +11070,6 @@ body a:hover {
 .tips-open .left-menu-prof-info .full-tips-o .tips-back .tip-b {
   color: #14347a;
   font-size: 15px;
-  font-weight: bold;
   width: 137px;
   height: 35px;
   display: -ms-flexbox;
@@ -11065,7 +11088,7 @@ body a:hover {
   position: relative;
 }
 .tips-open .left-menu-prof-info .full-tips-o .tips-back .tip-b:hover {
-  font-weight: normal;
+  font-weight: bold;
 }
 .tips-open .left-menu-prof-info .full-tips-o .tips-back .tip-b .back-ico {
   position: absolute;
@@ -12475,6 +12498,7 @@ body a:hover {
 .support .left-menu-prof-info .full-support .support-form .form-block .sup-line select {
   width: 70%;
   height: 35px;
+  padding-left: 7px;
   border: 1px solid #cfd9ef;
   text-align-last: center;
   -o-border-radius: 7px;
@@ -12558,6 +12582,7 @@ body a:hover {
   padding-left: 3px;
   margin-top: -35px;
   margin-bottom: 10px;
+  z-index: 99;
 }
 .support .left-menu-prof-info .full-support .support-form .form-block .attached-files-line .attached {
   position: relative;
@@ -12566,7 +12591,6 @@ body a:hover {
   border: 1px solid #cfd9ef;
   -o-border-radius: 6px;
   border-radius: 6px;
-  z-index: 9;
   margin-right: 7px;
 }
 .support .left-menu-prof-info .full-support .support-form .form-block .attached-files-line .attached span {
@@ -12591,6 +12615,7 @@ body a:hover {
   background-color: #b70e12;
   -o-border-radius: 16px;
   border-radius: 16px;
+  cursor: pointer;
 }
 .support .left-menu-prof-info .full-support .support-form .form-block .attached-files-line .attached .close-b span {
   color: #fff;
@@ -12974,7 +12999,6 @@ body a:hover {
 .statistic-more .left-menu-prof-info .full-more-statistic .statistic-more-back .stat-b {
   color: #14347a;
   font-size: 15px;
-  font-weight: bold;
   width: 110px;
   height: 40px;
   display: -ms-flexbox;
@@ -12993,7 +13017,7 @@ body a:hover {
   position: relative;
 }
 .statistic-more .left-menu-prof-info .full-more-statistic .statistic-more-back .stat-b:hover {
-  font-weight: normal;
+  font-weight: bold;
 }
 .statistic-more .left-menu-prof-info .full-more-statistic .statistic-more-back .stat-b .back-ico {
   position: absolute;
@@ -13550,7 +13574,6 @@ body a:hover {
 .statistic .left-menu-prof-info .full-statistic .statistic-back .stat-b {
   color: #14347a;
   font-size: 15px;
-  font-weight: bold;
   width: 110px;
   height: 40px;
   display: -ms-flexbox;
@@ -13569,7 +13592,7 @@ body a:hover {
   position: relative;
 }
 .statistic .left-menu-prof-info .full-statistic .statistic-back .stat-b:hover {
-  font-weight: normal;
+  font-weight: bold;
 }
 .statistic .left-menu-prof-info .full-statistic .statistic-back .stat-b .back-ico {
   position: absolute;
@@ -13940,7 +13963,6 @@ body a:hover {
 .favourite .left-menu-prof-info .full-favourite .favourite-back .stat-b {
   color: #14347a;
   font-size: 15px;
-  font-weight: bold;
   width: 110px;
   height: 40px;
   display: -ms-flexbox;
@@ -13959,7 +13981,7 @@ body a:hover {
   position: relative;
 }
 .favourite .left-menu-prof-info .full-favourite .favourite-back .stat-b:hover {
-  font-weight: normal;
+  font-weight: bold;
 }
 .favourite .left-menu-prof-info .full-favourite .favourite-back .stat-b .back-ico {
   position: absolute;
@@ -14334,7 +14356,6 @@ body a:hover {
 .guest .left-menu-prof-info .full-guest .guest-back .stat-b {
   color: #14347a;
   font-size: 15px;
-  font-weight: bold;
   width: 110px;
   height: 40px;
   display: -ms-flexbox;
@@ -14353,7 +14374,7 @@ body a:hover {
   position: relative;
 }
 .guest .left-menu-prof-info .full-guest .guest-back .stat-b:hover {
-  font-weight: normal;
+  font-weight: bold;
 }
 .guest .left-menu-prof-info .full-guest .guest-back .stat-b .back-ico {
   position: absolute;
@@ -14667,7 +14688,6 @@ body a:hover {
 .online .left-menu-prof-info .full-online .online-back .stat-b {
   color: #14347a;
   font-size: 15px;
-  font-weight: bold;
   width: 110px;
   height: 40px;
   display: -ms-flexbox;
@@ -14686,7 +14706,7 @@ body a:hover {
   position: relative;
 }
 .online .left-menu-prof-info .full-online .online-back .stat-b:hover {
-  font-weight: normal;
+  font-weight: bold;
 }
 .online .left-menu-prof-info .full-online .online-back .stat-b .back-ico {
   position: absolute;
@@ -15018,7 +15038,6 @@ body a:hover {
 .blacklist .left-menu-prof-info .full-blacklist .blacklist-back .stat-b {
   color: #14347a;
   font-size: 15px;
-  font-weight: bold;
   width: 110px;
   height: 40px;
   display: -ms-flexbox;
@@ -15037,7 +15056,7 @@ body a:hover {
   position: relative;
 }
 .blacklist .left-menu-prof-info .full-blacklist .blacklist-back .stat-b:hover {
-  font-weight: normal;
+  font-weight: bold;
 }
 .blacklist .left-menu-prof-info .full-blacklist .blacklist-back .stat-b .back-ico {
   position: absolute;
@@ -16917,10 +16936,10 @@ body a:hover {
 .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt button .del-ico {
   position: absolute;
   content: '';
-  top: 7px;
-  left: 21px;
+  top: 3px;
+  left: 17px;
   color: #b70e12;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 .letters-wom .left-menu-prof-info .letter-big-box .all-letters-pag .all-let-from-girl .one-letter-g .sub-data .let-nav-bt .ch-bt {
@@ -20347,7 +20366,7 @@ body a:hover {
   }
 }
 /*================================ media ================================*/
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1300px) {
   /*================== chat =======================*/
   .chat .container {
     width: 1280px;
@@ -20356,7 +20375,7 @@ body a:hover {
     display: none;
   }
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1300px) {
   /*================== chat =======================*/
   .chat .container .all-ladies-invitations .ladies-c .l-block .one-l {
     margin-right: 30px;
@@ -21373,8 +21392,36 @@ body a:hover {
     padding: 15px 0;
   }
   /*================== chat =======================*/
-  .chat .container {
-    width: 970px;
+  .chat .container .chat-box .box-head .box-name {
+    width: 60%;
+  }
+  .chat .container .chat-box .box-head .box-logo {
+    width: 40%;
+  }
+  .chat .container .chat-box .ex-box {
+    display: block;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .chat .container .chat-box .ex-box .c-cameras-contacts {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .chat .container .chat-box .ex-box .c-cameras-contacts .chat-list-box .chat-list-body .one-chat-line .list-cont {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .chat ::-webkit-scrollbar {
+    width: 5px;
+  }
+  .chat ::-webkit-scrollbar-thumb {
+    background: #CFD9EF;
+    border-radius: 2px;
+  }
+  .chat ::-webkit-scrollbar-track-piece {
+    background: #fff;
   }
   /*================== gift =======================*/
   .gift .left-menu-prof-info .all-gifts .gift-head {
@@ -22219,6 +22266,81 @@ body a:hover {
     text-align: left;
   }
   /*================== chat =======================*/
+  .chat .container .chat-box .box-head .box-name {
+    display: none;
+  }
+  .chat .container .chat-box .box-head .box-logo {
+    width: 100%;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    padding: 0 10px;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box {
+    display: block;
+    height: auto;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .akk-part {
+    height: auto;
+    width: 100%;
+    border-right: 0;
+    padding-right: 0;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .info-part .inf-bl {
+    margin-bottom: 5px;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .info-part {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .info-part .chat-inf-bl {
+    -ms-flex-direction: row;
+        flex-direction: row;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .info-part .chat-inf-bl button {
+    margin-left: 10px;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .akk-part .chat-akk-inf {
+    min-height: 150px;
+    height: auto;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .akk-part .chat-akk-inf .chat-s-inf {
+    margin-bottom: 0;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .akk-part .chat-akk-inf .chat-nav-line {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .akk-part .chat-akk-inf .chat-nav-line .nav-b {
+    margin: 5px 5px 5px 0;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write {
+    height: auto;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write .write-nav .c-smiles {
+    min-width: 22px;
+    min-height: 22px;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write .write-nav {
+    height: auto;
+    min-height: auto;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write .write-nav .send-buttons {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write .write-nav .send-buttons .one-s {
+    padding: 5px 0;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box {
+    max-height: initial;
+  }
   /*================== password ===================*/
   .password .left-menu-prof-info .change-pass .pass-block .change-line span {
     font-size: 14px;
@@ -22953,6 +23075,16 @@ body a:hover {
     font-size: 14px;
   }
   /*================== chat =======================*/
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box .info-part {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-body-full .man-line .man-cloud {
+    max-width: 80%;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-body-full .woman-line .woman-cloud {
+    max-width: 80%;
+  }
   /*================== password ===================*/
   .password .left-menu-prof-info .change-pass .pass-block {
     width: auto;
@@ -23236,3 +23368,111 @@ body a:hover {
     margin-right: 0;
   }
 }
+/*================== chat =======================*/
+@media only screen and (min-width: 992px) and (max-height: 960px) {
+  .chat .container .all-ladies-invitations {
+    max-height: 99vh;
+    min-height: 750px;
+  }
+  .chat .container .all-ladies-invitations .all-ladies-invitations-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    max-height: 100vh;
+    min-height: 620px;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box {
+    max-height: calc(99vh - 73px);
+    min-height: 670px;
+  }
+  .chat .container .chat-box .ex-box .c-cameras-contacts {
+    max-height: calc(99vh - 73px);
+    min-height: 670px;
+  }
+  .chat .container .chat-box .ex-box {
+    max-height: calc(99vh - 73px);
+  }
+  .chat .container .chat-box {
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 600px;
+  }
+  .chat .container {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-akk-box {
+    min-height: 160px;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-text-write {
+    min-height: 180px;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box .chat-body-full {
+    min-height: 150px;
+  }
+  .chat .container .chat-box .ex-box .c-cameras-contacts .chat-list-box .chat-list-head {
+    min-height: 70px;
+  }
+  .chat .container .chat-box .ex-box .c-cameras-contacts .chat-list-box .chat-list-body {
+    min-height: 100px;
+    overflow-y: auto;
+  }
+  .chat .container .chat-box .ex-box .c-cameras-contacts .chat-list-box {
+    min-height: 220px;
+    max-height: 580px;
+  }
+  .chat .container .chat-box .ex-box .c-cameras-contacts .chat-list-box .chat-list-bottom {
+    min-height: 15px;
+  }
+  .chat .container .all-ladies-invitations .ladies-c .l-block {
+    height: 360px;
+    overflow: hidden;
+  }
+  .chat .container .all-ladies-invitations .new-inv-block {
+    min-height: 170px;
+    max-height: 350px;
+    height: 783px;
+  }
+  .chat .container .all-ladies-invitations .new-inv-block .inv-body {
+    height: 400px;
+    max-height: inherit;
+    min-height: 100px;
+  }
+  .chat .container .all-ladies-invitations .man-akk-block {
+    max-height: 136px;
+    min-height: 136px;
+  }
+  .chat .container .all-ladies-invitations .ladies-c {
+    max-height: 413px;
+    min-height: 430px;
+  }
+  .chat .container .all-ladies-invitations .new-inv-block .inv-head {
+    min-height: 25px;
+  }
+  .chat .container .all-ladies-invitations .new-inv-block .inv-bottom {
+    min-height: 8px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1300px) and (max-height: 960px) {
+  .chat .container .all-ladies-invitations {
+    min-height: 600px;
+  }
+  .chat .container .all-ladies-invitations .all-ladies-invitations-wrap {
+    min-height: 600px;
+  }
+  .chat .container .chat-box .ex-box .c-akk-text-box,
+  .chat .container .chat-box .ex-box .c-cameras-contacts {
+    min-height: 600px;
+  }
+  .chat .container .chat-box .ex-box .c-cameras-contacts .chat-list-box {
+    min-height: 145px;
+  }
+  .chat .container .chat-box .ex-box .c-cameras-contacts .sound-line .hid-sound {
+    top: -178px;
+  }
+  .chat .container .chat-box .ex-box .c-cameras-contacts .chat-list-box .chat-list-head {
+    min-height: 30px;
+  }
+}
+/*================== chat =======================*/
