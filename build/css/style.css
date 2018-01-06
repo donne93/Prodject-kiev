@@ -20366,6 +20366,10 @@ body a:hover {
   }
 }
 /*================================ media ================================*/
+/*================== body-left-panel__open ======*/
+.body-left-panel__open {
+  overflow: hidden;
+}
 @media only screen and (min-width: 1300px) {
   /*================== chat =======================*/
   .chat .container {
@@ -20379,6 +20383,17 @@ body a:hover {
   /*================== chat =======================*/
   .chat .container .all-ladies-invitations .ladies-c .l-block .one-l {
     margin-right: 30px;
+  }
+  .chat .container .all-ladies-invitations .ladies-c .l-block .one-l:nth-child(even) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .chat .container .all-ladies-invitations .ladies-c .l-block .one-l:nth-child(odd) {
+    margin-right: 0px;
+  }
+  .chat .container .all-ladies-invitations .ladies-c .l-block {
+    -ms-flex-pack: justify;
+        justify-content: space-between;
   }
   .all-ladies-invitations-btn {
     display: -ms-flexbox;
@@ -20753,10 +20768,6 @@ body a:hover {
   }
   .left-panel .one-teststory-block .reg-line button {
     font-size: 15px;
-  }
-  /*================== body-left-panel__open ======*/
-  .body-left-panel__open {
-    overflow: hidden;
   }
   /*================== main  ======================*/
   .main-p-header .container .top-header .m-nav li a {
